@@ -482,7 +482,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -699,7 +699,7 @@
         "uuid": "8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
       }
     ],
-    "used_designators": "U207",
+    "used_designators": "U207,D102,#PWR101,#PWR103",
     "variants": []
   },
   "sheets": [

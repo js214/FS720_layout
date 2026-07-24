@@ -1277,68 +1277,13 @@
 		)
 		(symbol "#SRS:3_ICs/3-01426"
 			(pin_names
-				(offset 0.127)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AD797AR"
-				(at 1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-				(at 1.27 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/301426/335ad797.pdf"
-				(at 1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ultra Low Distortion & Noise OPAMP"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Current" ""
 				(at 0 0 0)
 				(show_name no)
@@ -1405,7 +1350,7 @@
 					)
 				)
 			)
-			(property "Symbol Modified Timestamp" "2025-10-13 21:00:11 -0800"
+			(property "Symbol Modified Timestamp" "2026-07-22 22:29:08 -0800"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1460,7 +1405,7 @@
 					)
 				)
 			)
-			(property "Symbol" "Amplifier_Operational:NE5534"
+			(property "Used In" "CG635,SG382,SG382R,SG384,SG384R,SG386,SG386R,SG392,SG394,SG396,SIM910,SIM911,SR1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1471,7 +1416,7 @@
 					)
 				)
 			)
-			(property "Used In" "CG635,SG382,SG382R,SG384,SG384R,SG386,SG386R,SG392,SG394,SG396,SIM910,SIM911,SR1"
+			(property "Symbol" "LINEAR_SRS:AD797_Single"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1504,7 +1449,7 @@
 					)
 				)
 			)
-			(property "Symbol Modified By" "assignment_engine"
+			(property "Symbol Modified By" "dbaselt"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1526,7 +1471,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "single opamp"
+			(property "Reference" "U"
+				(at 15.24 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AD797AR"
+				(at 15.24 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1535,6 +1502,29 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/301426/335ad797.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ultra Low Distortion & Noise OPAMP"
+				(at 15.24 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "ki_fp_filters" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
@@ -1548,7 +1538,7 @@
 					)
 				)
 			)
-			(symbol "3_ICs/3-01426_0_1"
+			(symbol "3_ICs/3-01426_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -1561,12 +1551,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "3_ICs/3-01426_1_1"
 				(pin input line
-					(at 0 -7.62 90)
+					(at 0 7.62 270)
 					(length 5.08)
-					(name "BAL"
+					(name "NULL"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -1584,7 +1572,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "–"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1620,7 +1608,7 @@
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
-					(name "V-"
+					(name "V–"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,9 +1624,9 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -7.62 90)
+					(at 2.54 7.62 270)
 					(length 6.35)
-					(name "COMP"
+					(name "NULL"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -1689,13 +1677,434 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 7.62 270)
+				(pin passive line
+					(at 0 -7.62 90)
 					(length 5.08)
-					(name "C/B"
+					(name "DC"
 						(effects
 							(font
 								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#SRS:3_ICs/3-02454"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Current" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tempco" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "1.29"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol Modified Timestamp" "2026-07-23 16:31:24 -0800"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint Modified Timestamp" "2026-07-24 19:37:29 -0800"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SRS PN" "3-02454"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Qty In Stock" "592"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Used In" "DC205"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint Modified By" "Jkastelic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol Modified By" "Jkastelic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol" "LINEAR_SRS:OpAmp_Single_NC_1_5_8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "OPA192ID"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manf" "TI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Recommended" "Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Shiny Info" "http://srsdata.corp.thinksrs.com:3838/ShinyParts/?Detail=302454"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "U"
+				(at 15.24 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA192IDR"
+				(at 7.112 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/302454/opa192.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Precision Amplifiers High VTG RRIO Prec Op Amps E-Trim"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3_ICs/3-02454_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -13584,427 +13993,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "3_ICs/3-02454_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 15.24 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "OPA192IDR"
-				(at 7.112 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/302454/opa192.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Precision Amplifiers High VTG RRIO Prec Op Amps E-Trim"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Current" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tempco" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "1.29"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint Modified Timestamp" "2025-10-13 21:00:11 -0800"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol Modified Timestamp" "2026-07-23 16:31:24 -0800"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SRS PN" "3-02454"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Qty In Stock" "592"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Used In" "DC205"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol Modified By" "Jkastelic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol" "LINEAR_SRS:OpAmp_Single_NC_1_5_8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "OPA192ID"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manf" "TI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Recommended" "Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint Modified By" "assignment_engine"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Shiny Info" "http://srsdata.corp.thinksrs.com:3838/ShinyParts/?Detail=302454"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3_ICs/3-02454_1_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "–"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V–"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -15735,7 +15723,7 @@
 		(uuid "27c482d5-01ac-4230-b7ac-029ec06a3d99")
 	)
 	(no_connect
-		(at 217.17 116.84)
+		(at 217.17 101.6)
 		(uuid "f056524b-6eb2-4852-a628-4092cad2a7cb")
 	)
 	(no_connect
@@ -16414,16 +16402,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 116.84 120.6167)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e540cc7-6580-419b-8152-9b0d79f3ff46")
-	)
-	(wire
-		(pts
 			(xy 367.03 160.02) (xy 367.03 168.91)
 		)
 		(stroke
@@ -17061,6 +17039,16 @@
 			(type default)
 		)
 		(uuid "757fc0a4-689b-4e5d-84aa-5feb174cdc87")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a36d68-49f4-455f-a55f-9fbebaa1f006")
 	)
 	(wire
 		(pts
@@ -21092,7 +21080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 120.6167 0)
+		(at 116.84 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21103,7 +21091,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc4a3cd-4821-4a4d-8ae3-c1a80930eeaf")
 		(property "Reference" "#PWR0214"
-			(at 116.84 126.9667 0)
+			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21114,7 +21102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 125.6967 0)
+			(at 116.84 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21125,7 +21113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 120.6167 0)
+			(at 116.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21136,7 +21124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 120.6167 0)
+			(at 116.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21147,7 +21135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 120.6167 0)
+			(at 116.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26469,7 +26457,6 @@
 		)
 	)
 	(symbol
-		(lib_name "3_ICs/3-02454_1")
 		(lib_id "#SRS:3_ICs/3-02454")
 		(at 318.77 93.98 0)
 		(unit 1)
