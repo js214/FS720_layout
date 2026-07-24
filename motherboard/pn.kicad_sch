@@ -15666,6 +15666,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MATES TO LED BOARD 7-01993\nWITH GREEN/GREEN/GREEN/RED\nLEDS INSTALLED, VIA SHORT\n5 POS RIBBON CABLE (1-01043)"
+		(exclude_from_sim no)
+		(at 115.824 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "122bf39c-8cab-4c7b-8db0-93663df69ce1")
+	)
 	(text "5th ORDER BUTTERWORTH LOWPASS FILTER.\nRs = 100 Ω, RL = 500 Ω, Fc = 1.8 MHz\nFLAT TO ±0.1 dB FROM DC TO 1.0 MHz.\nATTENUATION = -72 dB AT 10 MHz."
 		(exclude_from_sim no)
 		(at 130.81 131.826 0)
