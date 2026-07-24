@@ -12614,6 +12614,16 @@
 		)
 		(uuid "12e19b09-a5bd-47e5-8d75-793713de2917")
 	)
+	(text "FEMALE HEADER TO SC10L\nADAPTER BOARD"
+		(exclude_from_sim no)
+		(at 40.64 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c86d5cd-a1fd-493a-b666-f2f2cb4f29cf")
+	)
 	(text "CURRENT BALANCE TO SPLIT SINGLE SUPPLY"
 		(exclude_from_sim no)
 		(at 134.366 88.138 0)
@@ -16107,7 +16117,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "168fa4b8-3d17-407f-8dd7-8efbd3ac4dde")
 		(property "Reference" "J101"
 			(at 38.1 154.94 0)
@@ -16119,8 +16128,9 @@
 				)
 			)
 		)
-		(property "Value" "SC10L"
+		(property "Value" "Header"
 			(at 38.1 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16162,7 +16172,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "--"
+		(property "JLCPCB" "C7155422"
 			(at 38.1 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16173,7 +16183,7 @@
 				)
 			)
 		)
-		(property "MPN" "--"
+		(property "MPN" "1-215299-2"
 			(at 38.1 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16184,9 +16194,8 @@
 				)
 			)
 		)
-		(property "SRS PN" "--"
-			(at 38.1 173.99 0)
-			(hide yes)
+		(property "SRS PN" "1-01602"
+			(at 38.1 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

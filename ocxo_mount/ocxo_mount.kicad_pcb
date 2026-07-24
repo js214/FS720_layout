@@ -156,7 +156,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/355f19a5-aafa-4b54-b228-804f655eab8e")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -302,7 +302,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2c2e69f8-273d-4880-8f16-1e0194e7ea87")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -444,11 +444,12 @@
 				)
 			)
 		)
-		(property "Imported from Altium" "2025-07-21"
-			(at -12.7 0 90)
+		(property "SRS P/N" "1-01602"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36ce4c67-17c7-4995-9c2a-0f3cffb8eb63")
+			(uuid "8ebc6f59-c5a1-4c52-8342-45e887e0179e")
 			(effects
 				(font
 					(size 1 1)
@@ -459,7 +460,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4a8fa240-dbf8-4c1c-adda-902248188853")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -766,7 +767,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2f7e7dc4-40e3-46cc-81e6-2de3bca01edf")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -912,7 +913,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/8d653c67-2e74-4807-a924-58757976310a")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1058,7 +1059,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0cd2c731-da5f-466b-b595-d90a124253ac")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1204,7 +1205,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9b7545f8-3f7b-4c89-9d73-39e963a9943f")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1350,7 +1351,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d85809b5-ca6c-4110-a58d-3b41b3981536")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1485,18 +1486,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed61f6d5-d708-4b36-a26d-aca8b23496a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Imported from Altium" "2025-07-21"
-			(at -12.7 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee1a895b-5845-443e-aef1-a579b819e729")
 			(effects
 				(font
 					(size 1 1)
@@ -1728,7 +1717,7 @@
 		(property ki_fp_filters "CONNECTOR_SRS:HDR1X12")
 		(path "/5f34e4bb-0950-4414-82f1-739ba54c3014")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2035,7 +2024,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d4adf42c-474d-4ea2-9215-a56b8e836454")
 		(sheetname "/")
-		(sheetfile "SC10L Mounting PCB.kicad_sch")
+		(sheetfile "ocxo_mount.kicad_sch")
 		(units
 			(unit
 				(name "A")
