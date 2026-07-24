@@ -12646,7 +12646,7 @@
 		)
 		(uuid "b12f1ad3-15b4-469d-99e9-48a9d014bb8b")
 	)
-	(text "UNVERISAL INPUT / FLOATING OUTPUT\n24 V / 0.63 A SWITCHING POWER SUPPLY\nPHIHONG PART NUMBER PSA15LN3-240"
+	(text "UNIVERSAL INPUT / FLOATING OUTPUT\n24 V / 0.63 A SWITCHING POWER SUPPLY\nPHIHONG PART NUMBER PSA15LN3-240"
 		(exclude_from_sim no)
 		(at 57.404 100.584 0)
 		(effects
@@ -17458,7 +17458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61.9"
+		(property "Value" "61.9R"
 			(at 102.87 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20998,7 +20998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "162"
+		(property "Value" "162R"
 			(at 162.56 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25096,7 +25096,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF NP0"
 			(at 124.46 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)

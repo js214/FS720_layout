@@ -2558,6 +2558,393 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#SRS:3_ICs/3-02609"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -4.064 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD0402-140"
+				(at -4.064 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/302609/PESD0402-140.pdf"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TVS DIODE 14V 40V 0402"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Current" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Shiny Info" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tempco" "          "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint Modified Timestamp" "2025-10-13 21:00:11 -0800"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol Modified Timestamp" "2025-10-13 21:00:11 -0800"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SRS PN" "3-02609"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Qty In Stock" "9228"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol" "DISC_SRS:DIODE-TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Used In" "FS740,FS752"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manf" "Littelfuse Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PESD0402-140"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Recommended" "Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint Modified By" "assignment_engine"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Symbol Modified By" "assignment_engine"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Imported from Altium" "2025-07-21"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3_ICs/3-02609_1_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 1.016 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 -2.032) (xy -1.016 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 -1.778) (xy -2.54 1.778) (xy 0 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 -1.778) (xy 2.54 1.778) (xy 0 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#SRS:4_Resistors/4-02003"
 			(pin_numbers
 				(hide yes)
@@ -15301,6 +15688,17 @@
 		)
 		(uuid "4730cc05-a779-44d9-b885-ff71d3eaf49b")
 	)
+	(text "ESD PROTECTION"
+		(exclude_from_sim no)
+		(at 27.178 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a27691d-2286-4aba-9888-71a75a2f5c12")
+	)
 	(text "RESET INTEGRATOR\nWHEN EXT 10 MHz\nNOT PRESENT"
 		(exclude_from_sim no)
 		(at 373.38 117.856 0)
@@ -15312,9 +15710,9 @@
 		)
 		(uuid "98604dce-90b3-4065-8107-576229332a7c")
 	)
-	(text "OPTIONAL 50 Ω\n10 MHz INPUT"
+	(text "EXT REF 50 Ω\n10 MHz INPUT"
 		(exclude_from_sim no)
-		(at 35.56 109.982 0)
+		(at 36.322 75.692 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15325,7 +15723,7 @@
 	)
 	(text "PHASE NOISE\nOUTPUT TO FFT\nSPECTRUM ANALYZER\nOR VOLTMETER.\nKphi CALIBRATION\nAPPROX. 12 V/r.\n(INCLUDING LPF & AMPL.)"
 		(exclude_from_sim no)
-		(at 252.73 132.08 0)
+		(at 264.922 138.176 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15400,6 +15798,17 @@
 		)
 		(uuid "f6a95a1d-09a6-4f35-88f8-ba5d6300eca1")
 	)
+	(text "ESD PROTECTION"
+		(exclude_from_sim no)
+		(at 254.508 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9f80111-ae5f-4744-bfd7-371fec9e77b7")
+	)
 	(junction
 		(at 316.23 110.49)
 		(diameter 0)
@@ -15423,12 +15832,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27948101-7135-486a-ad71-cdca85683958")
-	)
-	(junction
-		(at 237.49 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eaeb356-47f7-4997-997d-6a2c6dc493b8")
 	)
 	(junction
 		(at 327.66 146.05)
@@ -15477,6 +15880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c4df06e-4c3f-4122-8370-c55f32a2f5af")
+	)
+	(junction
+		(at 237.49 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc5a43f-57fe-4eaf-ac95-5474a734ab30")
 	)
 	(junction
 		(at 327.66 166.37)
@@ -15575,10 +15984,22 @@
 		(uuid "a761dc66-aa21-4188-9986-06b787c679f5")
 	)
 	(junction
+		(at 261.62 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a92a43-2978-4dba-a325-8b9b4a936fc2")
+	)
+	(junction
 		(at 127 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab1431c-9f50-46ba-8e43-701ce2b0fb1e")
+	)
+	(junction
+		(at 34.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe5b139-dee2-41fa-80b5-f3ba9f1e88d8")
 	)
 	(junction
 		(at 156.21 175.26)
@@ -15769,6 +16190,16 @@
 			(type default)
 		)
 		(uuid "03a4d16a-42fa-4b52-bcd3-bdbce901fee1")
+	)
+	(wire
+		(pts
+			(xy 261.62 109.22) (xy 265.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04283d27-7164-4fb5-985d-74eab9aab4ac")
 	)
 	(wire
 		(pts
@@ -16412,7 +16843,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 109.22) (xy 243.84 109.22)
+			(xy 237.49 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -16482,7 +16913,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 109.22) (xy 259.08 109.22)
+			(xy 254 109.22) (xy 261.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -17212,7 +17643,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 36.83 92.71)
+			(xy 31.75 92.71) (xy 34.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -17742,6 +18173,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 92.71) (xy 34.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2419e84-27c8-4482-a67e-fca0dacc2393")
+	)
+	(wire
+		(pts
 			(xy 71.12 26.67) (xy 71.12 33.02)
 		)
 		(stroke
@@ -17829,6 +18270,16 @@
 			(type default)
 		)
 		(uuid "c92eb8bd-a3d4-4486-9200-b0cd71c6ef57")
+	)
+	(wire
+		(pts
+			(xy 34.29 92.71) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9697e25-0ace-45e0-bd04-9cd69447fad7")
 	)
 	(wire
 		(pts
@@ -19886,7 +20337,7 @@
 	)
 	(symbol
 		(lib_id "#SRS:4_Resistors/4-02510")
-		(at 247.65 109.22 90)
+		(at 250.19 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19897,7 +20348,7 @@
 		(fields_autoplaced yes)
 		(uuid "11ae38b7-a651-48fd-9755-d93f83d973f4")
 		(property "Reference" "R223"
-			(at 247.65 102.87 90)
+			(at 250.19 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19907,7 +20358,7 @@
 			)
 		)
 		(property "Value" "49.9R 1W"
-			(at 247.65 105.41 90)
+			(at 250.19 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19917,7 +20368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 245.11 104.14 90)
+			(at 247.65 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19928,7 +20379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 104.14 0)
+			(at 257.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19939,7 +20390,7 @@
 			)
 		)
 		(property "Description" "Res Thick Film 2512 49.9 Ohm 1% 1W ±100ppm/°C Pad SMD Automotive T/R"
-			(at 240.03 104.14 0)
+			(at 242.57 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19950,7 +20401,7 @@
 			)
 		)
 		(property "SRS PN" "4-02510"
-			(at 247.65 109.22 0)
+			(at 250.19 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19961,7 +20412,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 247.65 109.22 0)
+			(at 250.19 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19972,7 +20423,7 @@
 			)
 		)
 		(property "MPN" "CRCW251249R9FKEG"
-			(at 247.65 109.22 0)
+			(at 250.19 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19983,7 +20434,7 @@
 			)
 		)
 		(property "JLCPCB" "C25487"
-			(at 247.65 109.22 0)
+			(at 250.19 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20645,7 +21096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5UH"
+		(property "Value" "1.5μH"
 			(at 143.51 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20743,6 +21194,85 @@
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
 					(reference "L203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "264184d0-7313-4270-8f01-9e4c15b097d0")
+		(property "Reference" "#PWR0235"
+			(at 34.29 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b89ccdc-22c3-4c1d-a22e-377e79369467")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -21158,6 +21688,285 @@
 		)
 	)
 	(symbol
+		(lib_id "#SRS:3_ICs/3-02609")
+		(at 261.62 115.57 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "313d5378-c60b-41a1-b2e9-1827088e361e")
+		(property "Reference" "D203"
+			(at 257.81 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "14V TVS"
+			(at 257.81 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/302609/PESD0402-140.pdf"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 14V 40V 0402"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shiny Info" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tempco" "          "
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.15"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Modified Timestamp" "2025-10-13 21:00:11 -0800"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol Modified Timestamp" "2025-10-13 21:00:11 -0800"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRS PN" "3-02609"
+			(at 253.238 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty In Stock" "9228"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol" "DISC_SRS:DIODE-TVS"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Used In" "FS740,FS752"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Littelfuse Inc."
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD0402-140"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Recommended" "Y"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Modified By" "assignment_engine"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol Modified By" "assignment_engine"
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Imported from Altium" "2025-07-21"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f99dac13-efb5-4757-9605-1fa454140617")
+		)
+		(pin "2"
+			(uuid "5ac0c3e9-0851-4de1-944e-5043fc58966e")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 120.65 0)
 		(unit 1)
@@ -21371,7 +22180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "374"
+		(property "Value" "374R"
 			(at 240.03 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21866,6 +22675,85 @@
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
 					(reference "R206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb7ad9f-b23f-4016-8f14-f57818133614")
+		(property "Reference" "#PWR0236"
+			(at 261.62 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfc92aca-1d98-4445-afc0-853e67c6c5af")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -22473,7 +23361,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF NP0"
 			(at 160.274 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25795,6 +26683,284 @@
 		)
 	)
 	(symbol
+		(lib_id "#SRS:3_ICs/3-02609")
+		(at 34.29 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fa4872a-6e8e-4394-a6d0-0b73a1e27ae0")
+		(property "Reference" "D202"
+			(at 38.1 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "14V TVS"
+			(at 38.1 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 31.75 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/302609/PESD0402-140.pdf"
+			(at 31.75 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 14V 40V 0402"
+			(at 31.75 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shiny Info" ""
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tempco" "          "
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.15"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Modified Timestamp" "2025-10-13 21:00:11 -0800"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol Modified Timestamp" "2025-10-13 21:00:11 -0800"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRS PN" "3-02609"
+			(at 42.672 114.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty In Stock" "9228"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol" "DISC_SRS:DIODE-TVS"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Used In" "FS740,FS752"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Littelfuse Inc."
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD0402-140"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Recommended" "Y"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Modified By" "assignment_engine"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol Modified By" "assignment_engine"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Imported from Altium" "2025-07-21"
+			(at 31.75 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c56a5ce-7005-44d0-91f3-c24541264ab9")
+		)
+		(pin "2"
+			(uuid "4d80d872-9439-46f2-b3b3-f2dc44bfd715")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#SRS:5_Capacitors/5-00764")
 		(at 325.12 82.55 270)
 		(unit 1)
@@ -27489,7 +28655,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF NP0"
 			(at 340.614 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29053,7 +30219,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF NP0"
 			(at 133.604 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29682,7 +30848,7 @@
 	)
 	(symbol
 		(lib_id "#SRS:1_Connectors/1-01158")
-		(at 259.08 109.22 0)
+		(at 265.43 109.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29693,7 +30859,7 @@
 		(dnp no)
 		(uuid "cf21070c-b017-48e3-a0e7-f874ed5867da")
 		(property "Reference" "J203"
-			(at 264.16 101.6 0)
+			(at 270.51 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29703,7 +30869,7 @@
 			)
 		)
 		(property "Value" "BNC"
-			(at 264.16 104.14 0)
+			(at 270.51 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29713,7 +30879,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTOR_SRS:BNC-STRIP"
-			(at 266.7 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29724,7 +30890,7 @@
 			)
 		)
 		(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/101158/datasheet.pdf"
-			(at 266.7 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29735,7 +30901,7 @@
 			)
 		)
 		(property "Description" "Conn BNC 50Ohm Solder Pot ST Panel Mount RCP Gold Bag"
-			(at 266.7 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29746,7 +30912,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 259.08 109.22 0)
+			(at 265.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29757,7 +30923,7 @@
 			)
 		)
 		(property "SRS PN" "1-01158"
-			(at 259.08 109.22 0)
+			(at 265.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29768,7 +30934,7 @@
 			)
 		)
 		(property "MPN" "73100-0195"
-			(at 259.08 109.22 0)
+			(at 265.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29779,7 +30945,7 @@
 			)
 		)
 		(property "JLCPCB" "--"
-			(at 259.08 109.22 0)
+			(at 265.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30249,7 +31415,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF NP0"
 			(at 58.42 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31473,7 +32639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "130R"
 			(at 153.67 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)

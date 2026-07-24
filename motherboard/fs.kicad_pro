@@ -699,7 +699,7 @@
         "uuid": "8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
       }
     ],
-    "used_designators": "U207,D102,#PWR101,#PWR103",
+    "used_designators": "U207,D102,D202-203,D301-306,#PWR101,#PWR103,#PWR235-236,#PWR337-342,J204",
     "variants": []
   },
   "sheets": [
