@@ -1,0 +1,6 @@
+*#
+*.lck
+*.swp
+*.zip
+*/fp-info-cache
+_autosave*
