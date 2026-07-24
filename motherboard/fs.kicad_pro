@@ -94,7 +94,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "warning",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
@@ -699,7 +699,7 @@
         "uuid": "8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U207",
     "variants": []
   },
   "sheets": [
