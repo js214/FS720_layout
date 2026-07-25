@@ -4106,393 +4106,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#SRS:4_Resistors/4-02072"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "130"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/402072/datasheet.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Current" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Used In" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.013"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "0.06"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint Modified Timestamp" "2025-10-13 21:00:19 -0800"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol Modified Timestamp" "2025-10-13 21:00:19 -0800"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SRS PN" "4-02072"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Qty In Stock" "4784"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tempco" "50ppm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol" "Device:R_US"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TFCR0603-16W-E-1300F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manf" "VENKEL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Recommended" "Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint Modified By" "assignment_engine"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Symbol Modified By" "assignment_engine"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Shiny Info" "http://srsdata.corp.thinksrs.com:3838/ShinyParts/?Detail=402072"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "4_Resistors/4-02072_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "4_Resistors/4-02072_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "#SRS:4_Resistors/4-02099"
 			(pin_numbers
 				(hide yes)
@@ -15710,6 +15323,16 @@
 		)
 		(uuid "6a27691d-2286-4aba-9888-71a75a2f5c12")
 	)
+	(text "TRIPS @ 0.9 VPP"
+		(exclude_from_sim no)
+		(at 123.19 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ca919dc-81fb-40f1-bf64-da2d254bb6f8")
+	)
 	(text "RESET INTEGRATOR\nWHEN EXT 10 MHz\nNOT PRESENT"
 		(exclude_from_sim no)
 		(at 373.38 117.856 0)
@@ -15775,6 +15398,17 @@
 			(justify left)
 		)
 		(uuid "c0aeecbf-10d1-442d-8ba9-c6ed85a2db8e")
+	)
+	(text "TRIPS @ 3.3 VPP\nCLEARS @ 2.8 VPP"
+		(exclude_from_sim no)
+		(at 178.054 199.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd8f9c15-1975-4ac9-80d4-dcaa3828fe09")
 	)
 	(text "PLL INTEGRATOR\nLOOP FILTER."
 		(exclude_from_sim no)
@@ -18802,7 +18436,7 @@
 		)
 		(uuid "c6601b63-db84-4e88-a477-9025c07e1c55")
 	)
-	(label "3.9V"
+	(label "2.3V"
 		(at 158.75 175.26 0)
 		(effects
 			(font
@@ -21495,6 +21129,130 @@
 		)
 	)
 	(symbol
+		(lib_id "#SRS:4_Resistors/4-02445")
+		(at 177.8 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c7c7fdc-36a2-49a4-bf13-a042566771b4")
+		(property "Reference" "R218"
+			(at 177.8 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.00M"
+			(at 177.8 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.26 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
+			(at 170.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRS PN" "4-02445"
+			(at 177.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 177.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 177.8 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C22935"
+			(at 177.8 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d814613b-e3f7-462c-81a1-344886482788")
+		)
+		(pin "1"
+			(uuid "3b2b7619-8ac2-400d-837d-bdf99ff6c464")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "R218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#SRS:4_Resistors/4-02003")
 		(at 237.49 146.05 0)
 		(unit 1)
@@ -22483,6 +22241,132 @@
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
 					(reference "R229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#SRS:4_Resistors/4-02253")
+		(at 156.21 181.61 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "396d0ec5-d3eb-4faa-b3c6-8af6d997595a")
+		(property "Reference" "R217"
+			(at 148.59 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0K"
+			(at 147.828 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
+			(at 161.29 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRS PN" "4-02253"
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TFCR0603-16W-E-1002FT"
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C98220"
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92524ae3-f8b7-42e7-8116-001167d5e3be")
+		)
+		(pin "2"
+			(uuid "1fe203ae-d644-4b7d-bbb9-1a380ecae8a3")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
+					(reference "R217")
 					(unit 1)
 				)
 			)
@@ -24013,7 +23897,8 @@
 	)
 	(symbol
 		(lib_id "#SRS:4_Resistors/4-02299")
-		(at 177.8 175.26 90)
+		(at 156.21 168.91 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24021,30 +23906,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5663a81b-61ba-4963-940a-baa889b87230")
-		(property "Reference" "R218"
-			(at 177.8 168.91 90)
+		(property "Reference" "R216"
+			(at 153.67 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "30.1K"
-			(at 177.8 171.45 90)
+			(at 153.67 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 178.054 174.244 90)
+			(at 157.226 168.656 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24055,7 +23941,7 @@
 			)
 		)
 		(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/402299/datasheet.pdf"
-			(at 177.8 175.26 0)
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24066,7 +23952,7 @@
 			)
 		)
 		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
-			(at 177.8 175.26 0)
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24077,7 +23963,7 @@
 			)
 		)
 		(property "SRS PN" "4-02299"
-			(at 177.8 175.26 0)
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24088,7 +23974,7 @@
 			)
 		)
 		(property "MPN" "RR0816P-3012-D-47C"
-			(at 177.8 175.26 0)
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24099,7 +23985,7 @@
 			)
 		)
 		(property "JLCPCB" "C23000"
-			(at 177.8 175.26 90)
+			(at 156.21 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24118,7 +24004,7 @@
 		(instances
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
-					(reference "R218")
+					(reference "R216")
 					(unit 1)
 				)
 			)
@@ -30735,129 +30621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#SRS:4_Resistors/4-02061")
-		(at 156.21 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce076b4b-2470-4305-a914-59c116998586")
-		(property "Reference" "R217"
-			(at 150.876 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 151.13 182.626 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.29 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
-			(at 161.29 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SRS PN" "4-02061"
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RR0816P-101-D"
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C22775"
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "614185d0-57ce-420a-82d0-9cdc91628a9e")
-		)
-		(pin "2"
-			(uuid "9bbbed5a-f3cf-456f-82b8-7be36a5a38c9")
-		)
-		(instances
-			(project "fs"
-				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
-					(reference "R217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#SRS:1_Connectors/1-01158")
 		(at 265.43 109.22 0)
 		(mirror y)
@@ -32623,131 +32386,6 @@
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
 					(reference "R207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#SRS:4_Resistors/4-02072")
-		(at 156.21 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc46496a-6c1e-4201-a53a-4dd15a86ce12")
-		(property "Reference" "R216"
-			(at 153.67 167.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "130R"
-			(at 153.67 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 157.226 169.164 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/402072/datasheet.pdf"
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip"
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SRS PN" "4-02072"
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TFCR0603-16W-E-1300F"
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C22796"
-			(at 156.21 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2f759c9-28df-4c88-bde3-cd8e14d2fa46")
-		)
-		(pin "2"
-			(uuid "37a99cbc-2bad-42ee-9bea-743363e8f48c")
-		)
-		(instances
-			(project "fs"
-				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0/1e379764-9860-4d05-94be-bdf5e94a5f6a"
-					(reference "R216")
 					(unit 1)
 				)
 			)
