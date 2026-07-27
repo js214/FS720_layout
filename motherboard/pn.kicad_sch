@@ -15301,7 +15301,7 @@
 		)
 		(uuid "1fd06f77-78f1-4a40-9e29-da20a4cbe19f")
 	)
-	(text "PHASE DETECTOR\n1 MHz < F = 100 MHZ\n(LO & RF TYP 10 MHz)\nABOUT 8 mV PER DEGREE"
+	(text "PHASE DETECTOR\n1 MHz < F = 100 MHz\n(LO & RF TYP 10 MHz)\nABOUT 8 mV PER DEGREE"
 		(exclude_from_sim no)
 		(at 70.866 116.586 0)
 		(effects
@@ -15323,7 +15323,7 @@
 		)
 		(uuid "6a27691d-2286-4aba-9888-71a75a2f5c12")
 	)
-	(text "TRIPS @ 0.9 VPP"
+	(text "TRIPS @ 0.9 Vpp"
 		(exclude_from_sim no)
 		(at 123.19 184.658 0)
 		(effects
@@ -15399,7 +15399,7 @@
 		)
 		(uuid "c0aeecbf-10d1-442d-8ba9-c6ed85a2db8e")
 	)
-	(text "TRIPS @ 3.3 VPP\nCLEARS @ 2.8 VPP"
+	(text "TRIPS @ 3.3 Vpp\nCLEARS @ 2.8 Vpp"
 		(exclude_from_sim no)
 		(at 178.054 199.136 0)
 		(effects
