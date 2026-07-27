@@ -25123,7 +25123,7 @@
 		(dnp no)
 		(uuid "be572de4-1552-4431-8d02-1f108336de16")
 		(property "Reference" "FB101"
-			(at 80.264 146.05 90)
+			(at 80.264 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25133,9 +25133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "742863160"
-			(at 78.6891 147.32 0)
-			(hide yes)
+		(property "Value" "9.5A BEAD"
+			(at 82.296 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26695,7 +26694,7 @@
 				)
 			)
 		)
-		(property "Value" "18R / 5W"
+		(property "Value" "18R 5W"
 			(at 166.37 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -47529,7 +47529,7 @@
 				)
 			)
 		)
-		(property "Value" "742863160"
+		(property "Value" "9.5A BEAD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57079,7 +57079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "18R / 5W"
+		(property "Value" "18R 5W"
 			(at 15.24 -5.62 180)
 			(layer "B.Fab")
 			(uuid "3ca39281-8b51-4a36-9607-69f852fd9d02")
