@@ -9854,7 +9854,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#SRS:5_Capacitors/5-00954"
+		(symbol "#SRS:5_Capacitors/5-01075"
 			(pin_numbers
 				(hide yes)
 			)
@@ -9866,61 +9866,6 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10U"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ventura.corp.thinksrs.com/datasheets/500954/datasheet.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 uF 0805 capacitor, 25V X5R 10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Current" ""
 				(at 0 0 0)
 				(show_name no)
@@ -9932,7 +9877,7 @@
 					)
 				)
 			)
-			(property "Price" "0.024"
+			(property "Qty In Stock" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9943,7 +9888,62 @@
 					)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Shiny Info" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tempco" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Used In" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.51"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9976,29 +9976,7 @@
 					)
 				)
 			)
-			(property "Voltage" "25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Qty In Stock" "4562"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SRS PN" "5-00954"
+			(property "SRS PN" "5-01075"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10020,7 +9998,7 @@
 					)
 				)
 			)
-			(property "MPN" "GRM21BR61E106KA73L"
+			(property "MPN" "GRT31C5C1H104FA02L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10031,29 +10009,7 @@
 					)
 				)
 			)
-			(property "Manf" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Used In" "SR860,SR865,SR865A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tempco" "X5R       "
+			(property "Manf" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10097,7 +10053,51 @@
 					)
 				)
 			)
-			(property "Shiny Info" "http://srsdata.corp.thinksrs.com:3838/ShinyParts/?Detail=500954"
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GCM31C5C1H104FA16L"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10119,7 +10119,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0805_2012Metric"
+			(property "ki_fp_filters" "Capacitor_SMD:C_1206_3216Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10130,7 +10130,7 @@
 					)
 				)
 			)
-			(symbol "5_Capacitors/5-00954_0_1"
+			(symbol "5_Capacitors/5-01075_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -10156,7 +10156,7 @@
 					)
 				)
 			)
-			(symbol "5_Capacitors/5-00954_1_1"
+			(symbol "5_Capacitors/5-01075_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -13036,6 +13036,12 @@
 		(uuid "9e51c572-14c1-4e53-9697-695a3f6a09a1")
 	)
 	(junction
+		(at 83.82 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa5723e-b889-42fa-9019-71e6b352e19e")
+	)
+	(junction
 		(at 215.9 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13136,12 +13142,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb387f1f-4e4b-4172-a977-b69a4505a471")
-	)
-	(junction
-		(at 83.82 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc47a885-0c69-4620-bc09-28c9a9767c11")
 	)
 	(junction
 		(at 181.61 158.75)
@@ -21097,6 +21097,132 @@
 		)
 	)
 	(symbol
+		(lib_id "#SRS:5_Capacitors/5-01075")
+		(at 83.82 231.14 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cd23b5a-9440-4d40-ab6d-1a844be38e63")
+		(property "Reference" "C102"
+			(at 80.01 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF C0G"
+			(at 80.01 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 82.8548 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R"
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRS PN" "5-01075"
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT31C5C1H104FA02L"
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C3839854"
+			(at 83.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "254365c4-85dd-43c2-8121-ed2a6d31774d")
+		)
+		(pin "2"
+			(uuid "c530de64-6dad-49fb-b5dc-7d5bfd592856")
+		)
+		(instances
+			(project "fs"
+				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 46.99 205.74 0)
 		(unit 1)
@@ -26336,132 +26462,6 @@
 			(project "fs"
 				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
 					(reference "U104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#SRS:5_Capacitors/5-00954")
-		(at 83.82 231.14 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db9949a9-705b-4e39-b27c-12732ab04f33")
-		(property "Reference" "C102"
-			(at 80.264 229.616 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 80.518 232.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 82.8548 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 uF 0805 capacitor, 25V X5R 10%"
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SRS PN" "5-00954"
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM21BR61E106KA73L"
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C84416"
-			(at 83.82 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b20f3eb-5adf-4fb6-b318-e065e14a505e")
-		)
-		(pin "1"
-			(uuid "07c9bd44-9956-4462-ae0f-f080450df2f4")
-		)
-		(instances
-			(project "fs"
-				(path "/8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
-					(reference "C102")
 					(unit 1)
 				)
 			)
