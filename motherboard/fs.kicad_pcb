@@ -103,6 +103,7 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.0508)
+		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -9494,7 +9495,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R314"
-			(at 0 -1.43 90)
+			(at -0.512184 -1.651 90)
 			(layer "F.SilkS")
 			(uuid "f5c574e2-8c68-49c7-a3af-8bef1fc6025e")
 			(effects
