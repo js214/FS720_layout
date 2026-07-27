@@ -39,11 +39,12 @@
 		(45 "User.4" user)
 	)
 	(setup
-		(pad_to_mask_clearance 0)
+		(pad_to_mask_clearance 0.0508)
+		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
-			(front yes)
-			(back yes)
+			(front no)
+			(back no)
 		)
 		(covering
 			(front no)
@@ -444,12 +445,25 @@
 				)
 			)
 		)
-		(property "SRS P/N" "1-01602"
+		(property "MPN" "1-215299-2"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ebc6f59-c5a1-4c52-8342-45e887e0179e")
+			(uuid "4ab8e82c-fd41-4806-ae9f-788afae9116e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SRS PN" "1-01602"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c97107ca-a981-48ee-866e-26788015f661")
 			(effects
 				(font
 					(size 1 1)
@@ -1457,7 +1471,7 @@
 				)
 			)
 		)
-		(property "Value" "12POS 2.54MM"
+		(property "Value" "12POS 2.54mm"
 			(at 7.366 -3.683 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1493,142 +1507,12 @@
 				)
 			)
 		)
-		(property "Current" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc88ef7a-e827-41e9-b39f-fd84b4722cf0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Shiny Info" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d7167f0-6b12-4eae-9e1c-994e5755adc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tempco" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "068f98c6-e24c-4bdb-ae5a-64ba898f515c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cce910fe-35a3-4a4e-b528-865f108b20d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "0.71"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "286f28d7-d20f-4a7f-865c-faf51b0ee620")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "SRS PN" "1-01541"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecce2b00-9fd7-4a23-9233-b503bfb2e2fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint Modified Timestamp" "2025-10-13 21:00:08 -0800"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02fd8830-fd76-4251-be05-1944cf9f7cd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol Modified Timestamp" "2025-10-13 21:00:08 -0800"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ca564df-9fe9-4352-b53e-cd33ff90f38e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Qty In Stock" "531"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "989554d8-7a8c-4016-a543-c5a5f88353f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Used In" "CG635,DG645,FS740,SC10L,SG382,SG382R,SG384,SG384R,SG386,SG386R,SG392,SG394,SG396"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3a4e07d-1488-4f43-9e71-f1da8e747c25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol" "Connector_Generic:Conn_01x12"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74e6a62e-47f5-4555-ae91-3002c72fe484")
 			(effects
 				(font
 					(size 1 1)
@@ -1655,58 +1539,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3bd5f0bd-75ce-47ee-9d11-04cb458a3972")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manf" "Samtec"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5434d89-c8a9-41f8-ab45-3d9cc26d400a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Recommended" "Y"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff842df6-bef1-4779-8f07-5c4054152519")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint Modified By" "assignment_engine"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "062b931c-c421-4189-b148-f8b082a6d667")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol Modified By" "assignment_engine"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31e275fe-3b53-4d5f-89f1-e91451eaa8f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2528,6 +2360,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "JRW / JUL26 / REV A"
+		(at 146.5 90.5 90)
+		(layer "B.SilkS")
+		(uuid "2502243a-80d7-47de-b13c-882f752169d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "CONNECTED ON TARGET"
 		(at 191.008 91.948 90)
 		(layer "B.SilkS")
@@ -2588,7 +2432,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "FREQ_CTL_INPUT (0-5VDC)"
+	(gr_text "FREQ_CTL_INPUT (0-5 VDC)"
 		(at 157.226 94.615 180)
 		(layer "B.SilkS")
 		(uuid "6c903e40-a26f-4576-a066-93590bf96e5f")

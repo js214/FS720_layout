@@ -615,27 +615,9 @@
         },
         {
           "group_by": false,
-          "label": "Footprint Modified By",
-          "name": "Footprint Modified By",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Footprint Modified Timestamp",
-          "name": "Footprint Modified Timestamp",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manf",
-          "name": "Manf",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -645,75 +627,9 @@
         },
         {
           "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty In Stock",
-          "name": "Qty In Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Recommended",
-          "name": "Recommended",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Shiny Info",
-          "name": "Shiny Info",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SRS P/N",
-          "name": "SRS P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "SRS PN",
           "name": "SRS PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Symbol",
-          "name": "Symbol",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Symbol Modified By",
-          "name": "Symbol Modified By",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Symbol Modified Timestamp",
-          "name": "Symbol Modified Timestamp",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tempco",
-          "name": "Tempco",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Used In",
-          "name": "Used In",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -723,20 +639,8 @@
         },
         {
           "group_by": false,
-          "label": "Current",
-          "name": "Current",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
