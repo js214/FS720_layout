@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Jkastelic\\Documents\\projects\\FS720\\layout\\motherboard\\fs.kicad_sch")
-		(date "2026-07-27T15:56:55")
+		(date "2026-07-28T11:23:20")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "ADDRESS") "1290-D Reamwood Avenue, Sunnyvale CA 94089")
@@ -246,46 +246,46 @@
 		)
 		(comp
 			(ref "C102")
-			(value "10μF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "10 uF 0805 capacitor, 25V X5R 10%")
+			(value "0.1μF C0G")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
 			(fields
 				(field
-					(name "SRS PN") "5-00954")
+					(name "Voltage") "50V")
 				(field
-					(name "Voltage") "25V")
+					(name "SRS PN") "5-01075")
 				(field
-					(name "MPN") "GRM21BR61E106KA73L")
+					(name "MPN") "GRT31C5C1H104FA02L")
 				(field
-					(name "JLCPCB") "C84416")
+					(name "JLCPCB") "C3839854")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "10 uF 0805 capacitor, 25V X5R 10%")
+					(name "Description") "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
 			)
 			(libsource
 				(lib "#SRS")
-				(part "5_Capacitors/5-00954")
-				(description "10 uF 0805 capacitor, 25V X5R 10%")
-			)
-			(property
-				(name "SRS PN")
-				(value "5-00954")
+				(part "5_Capacitors/5-01075")
+				(description "Unpolarized capacitor")
 			)
 			(property
 				(name "Voltage")
-				(value "25V")
+				(value "50V")
+			)
+			(property
+				(name "SRS PN")
+				(value "5-01075")
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR61E106KA73L")
+				(value "GRT31C5C1H104FA02L")
 			)
 			(property
 				(name "JLCPCB")
-				(value "C84416")
+				(value "C3839854")
 			)
 			(property
 				(name "Sheetname")
@@ -301,13 +301,13 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "Capacitor_SMD:C_0805_2012Metric")
+				(value "Capacitor_SMD:C_1206_3216Metric")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "db9949a9-705b-4e39-b27c-12732ab04f33")
+			(tstamps "6cd23b5a-9440-4d40-ab6d-1a844be38e63")
 			(units
 				(unit
 					(name "A")
@@ -1329,6 +1329,162 @@
 			)
 		)
 		(comp
+			(ref "C116")
+			(value "10μF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "10 uF 0805 capacitor, 25V X5R 10%")
+			(fields
+				(field
+					(name "SRS PN") "5-00954")
+				(field
+					(name "Voltage") "25V")
+				(field
+					(name "MPN") "GRM21BR61E106KA73L")
+				(field
+					(name "JLCPCB") "C84416")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10 uF 0805 capacitor, 25V X5R 10%")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "5_Capacitors/5-00954")
+				(description "10 uF 0805 capacitor, 25V X5R 10%")
+			)
+			(property
+				(name "SRS PN")
+				(value "5-00954")
+			)
+			(property
+				(name "Voltage")
+				(value "25V")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61E106KA73L")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C84416")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Capacitor_SMD:C_0805_2012Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d5c9c2a-20a1-4f29-a1c8-932661f7cb23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C117")
+			(value "0.1μF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Capacitor, Mono, 50V,+/-10%, X7R, 0603")
+			(fields
+				(field
+					(name "Voltage") "50V")
+				(field
+					(name "SRS PN") "5-00764")
+				(field
+					(name "MPN") "06035C104KAT4A")
+				(field
+					(name "JLCPCB") "C14663")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor, Mono, 50V,+/-10%, X7R, 0603")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "5_Capacitors/5-00764")
+				(description "Capacitor, Mono, 50V,+/-10%, X7R, 0603")
+			)
+			(property
+				(name "Voltage")
+				(value "50V")
+			)
+			(property
+				(name "SRS PN")
+				(value "5-00764")
+			)
+			(property
+				(name "MPN")
+				(value "06035C104KAT4A")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C14663")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Capacitor_SMD:C_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7623f879-2bee-4123-a9fc-859eaf4d1bef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D101")
 			(value "MBRS230LT3G")
 			(footprint "Diode_SMD:D_SMB")
@@ -1392,6 +1548,84 @@
 					(pins
 						(pin
 							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D102")
+			(value "MMBD352")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "http://ventura.corp.thinksrs.com/datasheets/300538/129626533085123mmbd352lt1-d.pdf")
+			(description "MMBD352L, DUAL SCHOTTKY DIODE")
+			(fields
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "SRS PN") "3-00538")
+				(field
+					(name "MPN") "MMBD352LT1G")
+				(field
+					(name "JLCPCB") "C463549")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/300538/129626533085123mmbd352lt1-d.pdf")
+				(field
+					(name "Description") "MMBD352L, DUAL SCHOTTKY DIODE")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "3_ICs/3-00538")
+				(description "MMBD352L, DUAL SCHOTTKY DIODE")
+			)
+			(property
+				(name "Voltage")
+				(value "")
+			)
+			(property
+				(name "SRS PN")
+				(value "3-00538")
+			)
+			(property
+				(name "MPN")
+				(value "MMBD352LT1G")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C463549")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Package_TO_SOT_SMD:SOT-23")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f6e7fe6b-25d3-47b9-8d67-c9f4af0f3b4a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
 						)
 						(pin
 							(num "2")
@@ -3171,6 +3405,90 @@
 			)
 		)
 		(comp
+			(ref "J103")
+			(value "Conn_01x05")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "JLCPCB") "--")
+				(field
+					(name "MPN") "--")
+				(field
+					(name "SRS PN") "--")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x05")
+				(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "JLCPCB")
+				(value "--")
+			)
+			(property
+				(name "MPN")
+				(value "--")
+			)
+			(property
+				(name "SRS PN")
+				(value "--")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8862dd30-76cd-4bf1-8f92-dae6f5eb407f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "L101")
 			(value "47μH")
 			(footprint "INDUCTOR_SRS:PM3316")
@@ -3615,6 +3933,81 @@
 						)
 						(pin
 							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q103")
+			(value "2N7002")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
+			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			(fields
+				(field
+					(name "JLCPCB") "C8545")
+				(field
+					(name "MPN") "2N7002H6327XTSA2")
+				(field
+					(name "SRS PN") "3-02247")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
+				(field
+					(name "Description") "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "2N7002")
+				(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C8545")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002H6327XTSA2")
+			)
+			(property
+				(name "SRS PN")
+				(value "3-02247")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel Switching MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca6ee7ab-53a1-4b69-a56d-7f1e81369e9d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
 						)
 					)
 				)
@@ -4773,6 +5166,387 @@
 				(tstamps "/")
 			)
 			(tstamps "78ceb2b8-421b-4813-8e0e-0954d42d729d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R116")
+			(value "10.0K")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			(fields
+				(field
+					(name "SRS PN") "4-02253")
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "MPN") "TFCR0603-16W-E-1002FT")
+				(field
+					(name "JLCPCB") "C98220")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "4_Resistors/4-02253")
+				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(property
+				(name "SRS PN")
+				(value "4-02253")
+			)
+			(property
+				(name "Voltage")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "TFCR0603-16W-E-1002FT")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C98220")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Resistor_SMD:R_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "57bd0f96-0ac2-4e51-8b1f-b91b4d9dfe2d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R117")
+			(value "1.00K")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+			(fields
+				(field
+					(name "SRS PN") "4-02157")
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "JLCPCB") "C22548")
+				(field
+					(name "MPN") "RR0816P-102-D")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "4_Resistors/4-02157")
+				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(property
+				(name "SRS PN")
+				(value "4-02157")
+			)
+			(property
+				(name "Voltage")
+				(value "")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C22548")
+			)
+			(property
+				(name "MPN")
+				(value "RR0816P-102-D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Resistor_SMD:R_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eed8f014-cb79-4cce-a521-521a365f4a05")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R118")
+			(value "4.99K")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
+			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			(fields
+				(field
+					(name "SRS PN") "4-02224")
+				(field
+					(name "MPN") "TFCR0603-16W-E-4991FT")
+				(field
+					(name "JLCPCB") "C23046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
+				(field
+					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "4_Resistors/4-02224")
+				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(property
+				(name "SRS PN")
+				(value "4-02224")
+			)
+			(property
+				(name "MPN")
+				(value "TFCR0603-16W-E-4991FT")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C23046")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Resistor_SMD:R_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e3c0529a-55cd-4556-803c-f2907688b9c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R119")
+			(value "4.99K")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
+			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			(fields
+				(field
+					(name "SRS PN") "4-02224")
+				(field
+					(name "MPN") "TFCR0603-16W-E-4991FT")
+				(field
+					(name "JLCPCB") "C23046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
+				(field
+					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "4_Resistors/4-02224")
+				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(property
+				(name "SRS PN")
+				(value "4-02224")
+			)
+			(property
+				(name "MPN")
+				(value "TFCR0603-16W-E-4991FT")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C23046")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Resistor_SMD:R_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f46ae899-4a18-4eef-91b7-812dfef92fd9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R120")
+			(value "1.00K")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+			(fields
+				(field
+					(name "SRS PN") "4-02157")
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "JLCPCB") "C22548")
+				(field
+					(name "MPN") "RR0816P-102-D")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "4_Resistors/4-02157")
+				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
+			)
+			(property
+				(name "SRS PN")
+				(value "4-02157")
+			)
+			(property
+				(name "Voltage")
+				(value "")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C22548")
+			)
+			(property
+				(name "MPN")
+				(value "RR0816P-102-D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Resistor_SMD:R_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2b014df8-90be-415c-bf14-8a096228a7cb")
 			(units
 				(unit
 					(name "A")
@@ -6477,6 +7251,101 @@
 			)
 		)
 		(comp
+			(ref "U108")
+			(value "DG419DY")
+			(footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+			(description "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			(fields
+				(field
+					(name "SRS PN") "3-01367")
+				(field
+					(name "MPN") "DG419DY-T1-E3")
+				(field
+					(name "JLCPCB") "C6581")
+				(field
+					(name "Footprint") "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+				(field
+					(name "Description") "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "3_ICs/3-01367")
+				(description "Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, with Vlogic, SOIC-8")
+			)
+			(property
+				(name "SRS PN")
+				(value "3-01367")
+			)
+			(property
+				(name "MPN")
+				(value "DG419DY-T1-E3")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C6581")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fs.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "CMOS Analog Switch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d951bd1-31da-4256-83fc-ed2d9603efe4" "0b9c1473-8cfd-45e1-87cc-41fa47125cb2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "C201")
 			(value "270pF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6634,46 +7503,46 @@
 		)
 		(comp
 			(ref "C203")
-			(value "10μF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "10 uF 0805 capacitor, 25V X5R 10%")
+			(value "0.1μF C0G")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
 			(fields
 				(field
-					(name "SRS PN") "5-00954")
+					(name "SRS PN") "5-01075")
 				(field
-					(name "Voltage") "25V")
+					(name "MPN") "GRT31C5C1H104FA02L")
 				(field
-					(name "MPN") "GRM21BR61E106KA73L")
+					(name "Voltage") "50V")
 				(field
-					(name "JLCPCB") "C84416")
+					(name "JLCPCB") "C3839854")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "10 uF 0805 capacitor, 25V X5R 10%")
+					(name "Description") "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
 			)
 			(libsource
 				(lib "#SRS")
-				(part "5_Capacitors/5-00954")
-				(description "10 uF 0805 capacitor, 25V X5R 10%")
+				(part "5_Capacitors/5-01075")
+				(description "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
 			)
 			(property
 				(name "SRS PN")
-				(value "5-00954")
-			)
-			(property
-				(name "Voltage")
-				(value "25V")
+				(value "5-01075")
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR61E106KA73L")
+				(value "GRT31C5C1H104FA02L")
+			)
+			(property
+				(name "Voltage")
+				(value "50V")
 			)
 			(property
 				(name "JLCPCB")
-				(value "C84416")
+				(value "C3839854")
 			)
 			(property
 				(name "Sheetname")
@@ -6689,13 +7558,13 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "Capacitor_SMD:C_0805_2012Metric")
+				(value "Capacitor_SMD:C_1206_3216Metric")
 			)
 			(sheetpath
 				(names "/Phase Noise/")
 				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
 			)
-			(tstamps "9ff8c504-4ff0-403d-ae43-008ec49f86cf")
+			(tstamps "8f0a1e15-33ef-4dc1-b389-ab30341fb3b3")
 			(units
 				(unit
 					(name "A")
@@ -8345,6 +9214,84 @@
 			)
 		)
 		(comp
+			(ref "C225")
+			(value "1nF NP0")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Capacitor, Mono, 50V, ¦0.25pF or 5%, NPO, 0603, 1000P")
+			(fields
+				(field
+					(name "SRS PN") "5-00740")
+				(field
+					(name "Voltage") "50V")
+				(field
+					(name "MPN") "C0603C102J5GACTU")
+				(field
+					(name "JLCPCB") "C2181873")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor, Mono, 50V, ¦0.25pF or 5%, NPO, 0603, 1000P")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "5_Capacitors/5-00740")
+				(description "Capacitor, Mono, 50V, ¦0.25pF or 5%, NPO, 0603")
+			)
+			(property
+				(name "SRS PN")
+				(value "5-00740")
+			)
+			(property
+				(name "Voltage")
+				(value "50V")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C102J5GACTU")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C2181873")
+			)
+			(property
+				(name "Sheetname")
+				(value "Phase Noise")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pn.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Capacitor_SMD:C_0603_1608Metric")
+			)
+			(sheetpath
+				(names "/Phase Noise/")
+				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
+			)
+			(tstamps "d6bda55d-d616-415b-a0a9-ca0ad73de22a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D201")
 			(value "MMBD352")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
@@ -9356,90 +10303,6 @@
 			)
 		)
 		(comp
-			(ref "J202")
-			(value "Conn_01x05")
-			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
-			(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
-			(fields
-				(field
-					(name "JLCPCB") "--")
-				(field
-					(name "MPN") "--")
-				(field
-					(name "SRS PN") "--")
-				(field
-					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
-			)
-			(libsource
-				(lib "Connector_Generic")
-				(part "Conn_01x05")
-				(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
-			)
-			(property
-				(name "JLCPCB")
-				(value "--")
-			)
-			(property
-				(name "MPN")
-				(value "--")
-			)
-			(property
-				(name "SRS PN")
-				(value "--")
-			)
-			(property
-				(name "Sheetname")
-				(value "Phase Noise")
-			)
-			(property
-				(name "Sheetfile")
-				(value "pn.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
-			)
-			(property
-				(name "ki_keywords")
-				(value "connector")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Connector*:*_1x??_*")
-			)
-			(sheetpath
-				(names "/Phase Noise/")
-				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
-			)
-			(tstamps "0da7d14f-856b-4c3d-9efe-b45d6ace84c7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "J203")
 			(value "BNC")
 			(footprint "CONNECTOR_SRS:BNC-STRIP")
@@ -9821,156 +10684,6 @@
 			)
 		)
 		(comp
-			(ref "Q201")
-			(value "2N7002")
-			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
-			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			(fields
-				(field
-					(name "JLCPCB") "C8545")
-				(field
-					(name "MPN") "2N7002H6327XTSA2")
-				(field
-					(name "SRS PN") "3-02247")
-				(field
-					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
-				(field
-					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
-				(field
-					(name "Description") "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			)
-			(libsource
-				(lib "Transistor_FET")
-				(part "2N7002")
-				(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			)
-			(property
-				(name "JLCPCB")
-				(value "C8545")
-			)
-			(property
-				(name "MPN")
-				(value "2N7002H6327XTSA2")
-			)
-			(property
-				(name "SRS PN")
-				(value "3-02247")
-			)
-			(property
-				(name "Sheetname")
-				(value "Phase Noise")
-			)
-			(property
-				(name "Sheetfile")
-				(value "pn.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "N-Channel Switching MOSFET")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "SOT?23*")
-			)
-			(sheetpath
-				(names "/Phase Noise/")
-				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
-			)
-			(tstamps "6b57f1a5-01b6-431a-8808-4306ed596345")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "Q202")
-			(value "2N7002")
-			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
-			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			(fields
-				(field
-					(name "JLCPCB") "C8545")
-				(field
-					(name "MPN") "2N7002H6327XTSA2")
-				(field
-					(name "SRS PN") "3-02247")
-				(field
-					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
-				(field
-					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
-				(field
-					(name "Description") "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			)
-			(libsource
-				(lib "Transistor_FET")
-				(part "2N7002")
-				(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
-			)
-			(property
-				(name "JLCPCB")
-				(value "C8545")
-			)
-			(property
-				(name "MPN")
-				(value "2N7002H6327XTSA2")
-			)
-			(property
-				(name "SRS PN")
-				(value "3-02247")
-			)
-			(property
-				(name "Sheetname")
-				(value "Phase Noise")
-			)
-			(property
-				(name "Sheetfile")
-				(value "pn.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "N-Channel Switching MOSFET")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "SOT?23*")
-			)
-			(sheetpath
-				(names "/Phase Noise/")
-				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
-			)
-			(tstamps "c6d79f14-e858-4086-8edc-2ee2def09e5c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "Q203")
 			(value "2N7002")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
@@ -10109,7 +10822,7 @@
 				(names "/Phase Noise/")
 				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
 			)
-			(tstamps "44bfac95-714e-4ef4-94d3-1373224b72d4")
+			(tstamps "0c850077-91aa-415a-a570-1617ca83100c")
 			(units
 				(unit
 					(name "A")
@@ -10751,47 +11464,47 @@
 		)
 		(comp
 			(ref "R210")
-			(value "1.00K")
+			(value "10.0K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
 			(fields
 				(field
-					(name "SRS PN") "4-02157")
+					(name "SRS PN") "4-02253")
 				(field
 					(name "Voltage")
 				)
 				(field
-					(name "JLCPCB") "C22548")
+					(name "MPN") "TFCR0603-16W-E-1002FT")
 				(field
-					(name "MPN") "RR0816P-102-D")
+					(name "JLCPCB") "C98220")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
+					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
 			)
 			(libsource
 				(lib "#SRS")
-				(part "4_Resistors/4-02157")
+				(part "4_Resistors/4-02253")
 				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
 			)
 			(property
 				(name "SRS PN")
-				(value "4-02157")
+				(value "4-02253")
 			)
 			(property
 				(name "Voltage")
 				(value "")
 			)
 			(property
-				(name "JLCPCB")
-				(value "C22548")
+				(name "MPN")
+				(value "TFCR0603-16W-E-1002FT")
 			)
 			(property
-				(name "MPN")
-				(value "RR0816P-102-D")
+				(name "JLCPCB")
+				(value "C98220")
 			)
 			(property
 				(name "Sheetname")
@@ -10813,7 +11526,7 @@
 				(names "/Phase Noise/")
 				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
 			)
-			(tstamps "fcd8c33a-1cb8-4f7e-98ef-6a8c306cf0e8")
+			(tstamps "47f5d8f7-11d0-4b2c-9b5e-6be019d5f7f3")
 			(units
 				(unit
 					(name "A")
@@ -10830,150 +11543,6 @@
 		)
 		(comp
 			(ref "R211")
-			(value "4.99K")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(datasheet "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
-			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			(fields
-				(field
-					(name "SRS PN") "4-02224")
-				(field
-					(name "MPN") "TFCR0603-16W-E-4991FT")
-				(field
-					(name "JLCPCB") "C23046")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
-				(field
-					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			)
-			(libsource
-				(lib "#SRS")
-				(part "4_Resistors/4-02224")
-				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			)
-			(property
-				(name "SRS PN")
-				(value "4-02224")
-			)
-			(property
-				(name "MPN")
-				(value "TFCR0603-16W-E-4991FT")
-			)
-			(property
-				(name "JLCPCB")
-				(value "C23046")
-			)
-			(property
-				(name "Sheetname")
-				(value "Phase Noise")
-			)
-			(property
-				(name "Sheetfile")
-				(value "pn.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Resistor_SMD:R_0603_1608Metric")
-			)
-			(sheetpath
-				(names "/Phase Noise/")
-				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
-			)
-			(tstamps "676180a7-c354-4f23-ad70-b03f8a145971")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R212")
-			(value "4.99K")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(datasheet "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
-			(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			(fields
-				(field
-					(name "SRS PN") "4-02224")
-				(field
-					(name "MPN") "TFCR0603-16W-E-4991FT")
-				(field
-					(name "JLCPCB") "C23046")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/402224/datasheet.pdf")
-				(field
-					(name "Description") "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			)
-			(libsource
-				(lib "#SRS")
-				(part "4_Resistors/4-02224")
-				(description "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip")
-			)
-			(property
-				(name "SRS PN")
-				(value "4-02224")
-			)
-			(property
-				(name "MPN")
-				(value "TFCR0603-16W-E-4991FT")
-			)
-			(property
-				(name "JLCPCB")
-				(value "C23046")
-			)
-			(property
-				(name "Sheetname")
-				(value "Phase Noise")
-			)
-			(property
-				(name "Sheetfile")
-				(value "pn.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Resistor_SMD:R_0603_1608Metric")
-			)
-			(sheetpath
-				(names "/Phase Noise/")
-				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
-			)
-			(tstamps "34b3aeba-e03b-491b-b82d-9ea6621cedb2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R213")
 			(value "1.00K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R")
@@ -11036,7 +11605,7 @@
 				(names "/Phase Noise/")
 				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
 			)
-			(tstamps "967728fb-e007-4976-8ea5-b99f4fd7f008")
+			(tstamps "24ec2a07-e5fe-4b30-b8ea-80f82f018842")
 			(units
 				(unit
 					(name "A")
@@ -13005,6 +13574,101 @@
 						)
 						(pin
 							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U207")
+			(value "DG419DY")
+			(footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+			(description "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			(fields
+				(field
+					(name "SRS PN") "3-01367")
+				(field
+					(name "MPN") "DG419DY-T1-E3")
+				(field
+					(name "JLCPCB") "C6581")
+				(field
+					(name "Footprint") "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+				(field
+					(name "Description") "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			)
+			(libsource
+				(lib "#SRS")
+				(part "3_ICs/3-01367")
+				(description "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			)
+			(property
+				(name "SRS PN")
+				(value "3-01367")
+			)
+			(property
+				(name "MPN")
+				(value "DG419DY-T1-E3")
+			)
+			(property
+				(name "JLCPCB")
+				(value "C6581")
+			)
+			(property
+				(name "Sheetname")
+				(value "Phase Noise")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pn.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "CMOS Analog Switch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+			)
+			(sheetpath
+				(names "/Phase Noise/")
+				(tstamps "/1e379764-9860-4d05-94be-bdf5e94a5f6a/")
+			)
+			(tstamps "2371ec36-a3e6-4028-9de8-7e9a4789ca4b" "20c14ff9-4460-48a4-b870-6da92da34b6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
 						)
 					)
 				)
@@ -20412,6 +21076,107 @@
 		)
 		(libpart
 			(lib "#SRS")
+			(part "3_ICs/3-01367")
+			(description "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			(docs "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+			(footprints
+				(fp "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+			)
+			(fields
+				(field
+					(name "Current")
+				)
+				(field
+					(name "Tempco")
+				)
+				(field
+					(name "Tolerance")
+				)
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "Price") "0.805")
+				(field
+					(name "Qty In Stock") "1050")
+				(field
+					(name "Footprint Modified Timestamp") "2025-10-13 21:00:11 -0800")
+				(field
+					(name "Symbol Modified Timestamp") "2025-10-13 21:00:11 -0800")
+				(field
+					(name "SRS PN") "3-01367")
+				(field
+					(name "Symbol") "Analog_Switch:DG419LDY")
+				(field
+					(name "Used In") "BGA244,BGA244E,BGA244HP,BGA244HPH,DC205,DC215,EC301,GPA2000B,GPA2000H,GPA2000H1,GPA2000V,GPA2000V1,SIM900,SIM960,SIM965,SIM980,SIM983,SR1,SR124,SR2124")
+				(field
+					(name "MPN") "DG419DY-T1-E3")
+				(field
+					(name "Manf") "VISHAY/SIL")
+				(field
+					(name "Recommended") "Y")
+				(field
+					(name "Footprint Modified By") "assignment_engine")
+				(field
+					(name "Symbol Modified By") "assignment_engine")
+				(field
+					(name "Shiny Info") "http://srsdata.corp.thinksrs.com:3838/ShinyParts/?Detail=301367")
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DG419DY")
+				(field
+					(name "Footprint") "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://ventura.corp.thinksrs.com/datasheets/301367/2271994759203721dg417.pdf")
+				(field
+					(name "Description") "DG419, Analog Switch, SPDT, 100 ns, r_on = 20 Ohm typ., SO-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "VL")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "#SRS")
 			(part "3_ICs/3-01426")
 			(description "Ultra Low Distortion & Noise OPAMP")
 			(docs "http://ventura.corp.thinksrs.com/datasheets/301426/335ad797.pdf")
@@ -23246,6 +24011,79 @@
 		)
 		(libpart
 			(lib "#SRS")
+			(part "5_Capacitors/5-01075")
+			(description "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
+			(footprints
+				(fp "Capacitor_SMD:C_1206_3216Metric")
+			)
+			(fields
+				(field
+					(name "Current")
+				)
+				(field
+					(name "Qty In Stock")
+				)
+				(field
+					(name "Shiny Info")
+				)
+				(field
+					(name "Tempco")
+				)
+				(field
+					(name "Used In")
+				)
+				(field
+					(name "Voltage")
+				)
+				(field
+					(name "Price") "0.51")
+				(field
+					(name "Tolerance") "1%")
+				(field
+					(name "Footprint Modified Timestamp") "2025-10-13 21:00:30 -0800")
+				(field
+					(name "Symbol Modified Timestamp") "2025-10-13 21:00:30 -0800")
+				(field
+					(name "SRS PN") "5-01075")
+				(field
+					(name "Symbol") "Device:C")
+				(field
+					(name "MPN") "GRT31C5C1H104FA02L")
+				(field
+					(name "Manf") "Murata Electronics")
+				(field
+					(name "Recommended") "Y")
+				(field
+					(name "Footprint Modified By") "assignment_engine")
+				(field
+					(name "Symbol Modified By") "assignment_engine")
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "GCM31C5C1H104FA16L")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap Ceramic 0.1uF 50V C0G 1% Pad SMD 1206 125°C Automotive AEC-Q200 T/R")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "#SRS")
 			(part "6_Other/6-00595")
 			(description "Inductor, SMD, Iron Core, 200MHz, 620mA, 10%, Shielded, 1210")
 			(docs "http://ventura.corp.thinksrs.com/datasheets/600595/datasheet.pdf")
@@ -24096,6 +24934,17 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C117")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D102")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "FB102")
 				(pin "1")
 				(pintype "passive")
@@ -24136,9 +24985,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J202")
+				(ref "J103")
 				(pin "1")
 				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R201")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -24166,6 +25020,24 @@
 				(pin "3")
 				(pinfunction "OUT_3")
 				(pintype "power_out")
+			)
+			(node
+				(ref "U108")
+				(pin "4")
+				(pinfunction "V+_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U108")
+				(pin "5")
+				(pinfunction "VL_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U207")
+				(pin "5")
+				(pinfunction "VL_5")
+				(pintype "power_in")
 			)
 		)
 		(net
@@ -24222,6 +25094,12 @@
 				(ref "U106")
 				(pin "1")
 				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U207")
+				(pin "4")
+				(pinfunction "V+_4")
 				(pintype "power_in")
 			)
 		)
@@ -24360,6 +25238,12 @@
 				(pinfunction "VI_2")
 				(pintype "power_in")
 			)
+			(node
+				(ref "U207")
+				(pin "7")
+				(pinfunction "V-_7")
+				(pintype "power_in")
+			)
 		)
 		(net
 			(code "6")
@@ -24430,6 +25314,12 @@
 				(ref "U105")
 				(pin "2")
 				(pinfunction "VI_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U108")
+				(pin "7")
+				(pinfunction "V-_7")
 				(pintype "power_in")
 			)
 		)
@@ -24548,33 +25438,6 @@
 		)
 		(net
 			(code "13")
-			(name "/FREQ_CTL")
-			(class "Default")
-			(node
-				(ref "C102")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J101")
-				(pin "9")
-				(pinfunction "Pin_9_9")
-				(pintype "passive")
-			)
-			(node
-				(ref "R102")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP112")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "14")
 			(name "/HEAT_MON")
 			(class "Default")
 			(node
@@ -24588,6 +25451,37 @@
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LOCKED")
+			(class "Default")
+			(node
+				(ref "Q203")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R116")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R229")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U205")
+				(pin "1")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U205")
+				(pin "7")
+				(pintype "open_collector")
 			)
 		)
 		(net
@@ -25062,9 +25956,19 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "Q202")
+				(ref "C225")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D102")
 				(pin "3")
-				(pinfunction "D_3")
+				(pinfunction "COM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R211")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -25079,9 +25983,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U206")
-				(pin "6")
-				(pintype "output")
+				(ref "U207")
+				(pin "1")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -25108,41 +26012,88 @@
 		)
 		(net
 			(code "30")
-			(name "/Phase Noise/LOCKED")
+			(name "/SC10L_+5VREF")
 			(class "Default")
 			(node
-				(ref "Q203")
-				(pin "3")
-				(pinfunction "D_3")
+				(ref "J101")
+				(pin "8")
+				(pinfunction "Pin_8_8")
 				(pintype "passive")
 			)
 			(node
-				(ref "R201")
+				(ref "TP116")
 				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
-			)
-			(node
-				(ref "R229")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U205")
-				(pin "1")
-				(pintype "open_collector")
-			)
-			(node
-				(ref "U205")
-				(pin "7")
-				(pintype "open_collector")
 			)
 		)
 		(net
 			(code "31")
-			(name "/Phase Noise/~{OVLD}")
+			(name "/SC10L_FREQ_CTL")
 			(class "Default")
 			(node
-				(ref "R211")
+				(ref "C102")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J101")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R102")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP112")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "/TEMP_CTL")
+			(class "Default")
+			(node
+				(ref "J101")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP118")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "/VARAC_MON")
+			(class "Default")
+			(node
+				(ref "J101")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP114")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "/~{OVLD}")
+			(class "Default")
+			(node
+				(ref "R118")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -25163,15 +26114,9 @@
 			)
 		)
 		(net
-			(code "32")
-			(name "/Phase Noise/~{SIG_PRESENT}")
+			(code "35")
+			(name "/~{SIG_PRESENT}")
 			(class "Default")
-			(node
-				(ref "Q202")
-				(pin "1")
-				(pinfunction "G_1")
-				(pintype "input")
-			)
 			(node
 				(ref "Q203")
 				(pin "1")
@@ -25179,7 +26124,7 @@
 				(pintype "input")
 			)
 			(node
-				(ref "R212")
+				(ref "R119")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -25194,60 +26139,19 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "U108")
+				(pin "6")
+				(pintype "input")
+			)
+			(node
 				(ref "U203")
 				(pin "1")
 				(pintype "open_collector")
 			)
-		)
-		(net
-			(code "33")
-			(name "/SC10L_+5VREF")
-			(class "Default")
 			(node
-				(ref "J101")
-				(pin "8")
-				(pinfunction "Pin_8_8")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP116")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "34")
-			(name "/TEMP_CTL")
-			(class "Default")
-			(node
-				(ref "J101")
-				(pin "12")
-				(pinfunction "Pin_12_12")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP118")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "35")
-			(name "/VARAC_MON")
-			(class "Default")
-			(node
-				(ref "J101")
-				(pin "4")
-				(pinfunction "Pin_4_4")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP114")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
+				(ref "U207")
+				(pin "6")
+				(pintype "input")
 			)
 		)
 		(net
@@ -25316,6 +26220,16 @@
 			)
 			(node
 				(ref "C115")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C116")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C117")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -25535,6 +26449,12 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "D102")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "D201")
 				(pin "1")
 				(pinfunction "A_1")
@@ -25727,7 +26647,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "Q201")
+				(ref "Q103")
 				(pin "2")
 				(pinfunction "S_2")
 				(pintype "passive")
@@ -25769,6 +26689,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R120")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "R202")
 				(pin "2")
 				(pintype "passive")
@@ -25784,7 +26709,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R213")
+				(ref "R210")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -25935,6 +26860,12 @@
 				(pintype "power_in")
 			)
 			(node
+				(ref "U108")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
 				(ref "U202")
 				(pin "4")
 				(pinfunction "GND_4")
@@ -25959,10 +26890,10 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "U206")
+				(ref "U207")
 				(pin "3")
-				(pinfunction "+_3")
-				(pintype "input")
+				(pinfunction "GND_3")
+				(pintype "power_in")
 			)
 		)
 		(net
@@ -26076,6 +27007,26 @@
 		)
 		(net
 			(code "42")
+			(name "Net-(C225-Pad2)")
+			(class "Default")
+			(node
+				(ref "C225")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R211")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U206")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "43")
 			(name "Net-(D101-A)")
 			(class "Default")
 			(node
@@ -26097,7 +27048,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "44")
 			(name "Net-(D101-K)")
 			(class "Default")
 			(node
@@ -26119,7 +27070,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "45")
 			(name "Net-(D201-COM)")
 			(class "Default")
 			(node
@@ -26135,7 +27086,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "46")
 			(name "Net-(D201-K)")
 			(class "Default")
 			(node
@@ -26168,7 +27119,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "47")
 			(name "Net-(D202-CATHODE)")
 			(class "Default")
 			(node
@@ -26195,7 +27146,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "48")
 			(name "Net-(D203-CATHODE)")
 			(class "Default")
 			(node
@@ -26222,71 +27173,71 @@
 			)
 		)
 		(net
-			(code "48")
-			(name "Net-(J202-Pin_2)")
+			(code "49")
+			(name "Net-(J103-Pin_2)")
 			(class "Default")
 			(node
-				(ref "J202")
+				(ref "J103")
 				(pin "2")
 				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R210")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "49")
-			(name "Net-(J202-Pin_3)")
-			(class "Default")
-			(node
-				(ref "J202")
-				(pin "3")
-				(pinfunction "Pin_3_3")
-				(pintype "passive")
-			)
-			(node
-				(ref "R211")
+				(ref "R117")
 				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "50")
-			(name "Net-(J202-Pin_4)")
+			(name "Net-(J103-Pin_3)")
 			(class "Default")
 			(node
-				(ref "J202")
-				(pin "4")
-				(pinfunction "Pin_4_4")
+				(ref "J103")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "R212")
+				(ref "R118")
 				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "51")
-			(name "Net-(J202-Pin_5)")
+			(name "Net-(J103-Pin_4)")
 			(class "Default")
 			(node
-				(ref "J202")
-				(pin "5")
-				(pinfunction "Pin_5_5")
+				(ref "J103")
+				(pin "4")
+				(pinfunction "Pin_4_4")
 				(pintype "passive")
 			)
 			(node
-				(ref "R213")
+				(ref "R119")
 				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "52")
+			(name "Net-(J103-Pin_5)")
+			(class "Default")
+			(node
+				(ref "J103")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R120")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
 			(name "Net-(Q101-B)")
 			(class "Default")
 			(node
@@ -26318,7 +27269,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "54")
 			(name "Net-(Q101-E)")
 			(class "Default")
 			(node
@@ -26345,76 +27296,59 @@
 			)
 		)
 		(net
-			(code "54")
-			(name "Net-(Q201-D)")
+			(code "55")
+			(name "Net-(Q103-D)")
 			(class "Default")
 			(node
-				(ref "Q201")
+				(ref "Q103")
 				(pin "3")
 				(pinfunction "D_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "R210")
+				(ref "R117")
 				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "55")
-			(name "Net-(Q201-G)")
-			(class "Default")
-			(node
-				(ref "C203")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "Q201")
-				(pin "1")
-				(pinfunction "G_1")
-				(pintype "input")
-			)
-			(node
-				(ref "R201")
-				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "56")
-			(name "Net-(Q202-S)")
+			(name "Net-(Q103-G)")
 			(class "Default")
 			(node
-				(ref "C223")
+				(ref "C116")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "Q202")
-				(pin "2")
-				(pinfunction "S_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R224")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R228")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U206")
-				(pin "2")
-				(pinfunction "–_2")
+				(ref "Q103")
+				(pin "1")
+				(pinfunction "G_1")
 				(pintype "input")
+			)
+			(node
+				(ref "R116")
+				(pin "2")
+				(pintype "passive")
 			)
 		)
 		(net
 			(code "57")
+			(name "Net-(R102-Pad2)")
+			(class "Default")
+			(node
+				(ref "R102")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U108")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
 			(name "Net-(R109-Pad1)")
 			(class "Default")
 			(node
@@ -26434,7 +27368,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "59")
 			(name "Net-(R204-Pad1)")
 			(class "Default")
 			(node
@@ -26454,7 +27388,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "60")
 			(name "Net-(R221-Pad1)")
 			(class "Default")
 			(node
@@ -26484,7 +27418,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "61")
 			(name "Net-(R304-Pad1)")
 			(class "Default")
 			(node
@@ -26509,7 +27443,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "62")
 			(name "Net-(R305-Pad1)")
 			(class "Default")
 			(node
@@ -26534,7 +27468,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "63")
 			(name "Net-(R306-Pad1)")
 			(class "Default")
 			(node
@@ -26559,7 +27493,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "64")
 			(name "Net-(R313-Pad1)")
 			(class "Default")
 			(node
@@ -26584,7 +27518,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "65")
 			(name "Net-(R314-Pad1)")
 			(class "Default")
 			(node
@@ -26609,7 +27543,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "66")
 			(name "Net-(R315-Pad1)")
 			(class "Default")
 			(node
@@ -26634,14 +27568,9 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "67")
 			(name "Net-(U101-SENSE)")
 			(class "Default")
-			(node
-				(ref "R102")
-				(pin "2")
-				(pintype "passive")
-			)
 			(node
 				(ref "U101")
 				(pin "5")
@@ -26653,9 +27582,14 @@
 				(pin "6")
 				(pintype "output")
 			)
+			(node
+				(ref "U108")
+				(pin "1")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "67")
+			(code "68")
 			(name "Net-(U102-+)")
 			(class "Default")
 			(node
@@ -26676,7 +27610,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "69")
 			(name "Net-(U102--)")
 			(class "Default")
 			(node
@@ -26697,7 +27631,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "70")
 			(name "Net-(U104-ADJ)")
 			(class "Default")
 			(node
@@ -26723,7 +27657,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "71")
 			(name "Net-(U105-ADJ)")
 			(class "Default")
 			(node
@@ -26749,7 +27683,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "72")
 			(name "Net-(U201--)")
 			(class "Default")
 			(node
@@ -26770,7 +27704,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "73")
 			(name "Net-(U201-V+)")
 			(class "Default")
 			(node
@@ -26791,7 +27725,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "74")
 			(name "Net-(U201-V-)")
 			(class "Default")
 			(node
@@ -26812,7 +27746,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "75")
 			(name "Net-(U202-DC)")
 			(class "Default")
 			(node
@@ -26828,7 +27762,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "76")
 			(name "Net-(U202-RF1)")
 			(class "Default")
 			(node
@@ -26850,7 +27784,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "77")
 			(name "Net-(U202-RF2)")
 			(class "Default")
 			(node
@@ -26882,7 +27816,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "78")
 			(name "Net-(U203C-V+)")
 			(class "Default")
 			(node
@@ -26903,7 +27837,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "79")
 			(name "Net-(U203C-V-)")
 			(class "Default")
 			(node
@@ -26924,7 +27858,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "80")
 			(name "Net-(U204-+)")
 			(class "Default")
 			(node
@@ -26956,7 +27890,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "81")
 			(name "Net-(U204-V+)")
 			(class "Default")
 			(node
@@ -26977,7 +27911,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "82")
 			(name "Net-(U204-V–)")
 			(class "Default")
 			(node
@@ -26998,7 +27932,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "83")
 			(name "Net-(U204-–)")
 			(class "Default")
 			(node
@@ -27019,7 +27953,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "84")
 			(name "Net-(U205C-V+)")
 			(class "Default")
 			(node
@@ -27040,7 +27974,33 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "85")
+			(name "Net-(U206-+)")
+			(class "Default")
+			(node
+				(ref "C203")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R201")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R210")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U206")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "86")
 			(name "Net-(U206-V+)")
 			(class "Default")
 			(node
@@ -27061,7 +28021,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "87")
 			(name "Net-(U206-V–)")
 			(class "Default")
 			(node
@@ -27082,7 +28042,38 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "88")
+			(name "Net-(U206-–)")
+			(class "Default")
+			(node
+				(ref "C223")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R224")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R228")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U206")
+				(pin "2")
+				(pinfunction "–_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U207")
+				(pin "8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "89")
 			(name "Net-(U301--)")
 			(class "Default")
 			(node
@@ -27103,7 +28094,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "90")
 			(name "Net-(U301-V+)")
 			(class "Default")
 			(node
@@ -27124,7 +28115,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "91")
 			(name "Net-(U301-V-)")
 			(class "Default")
 			(node
@@ -27145,7 +28136,7 @@
 			)
 		)
 		(net
-			(code "89")
+			(code "92")
 			(name "Net-(U302--)")
 			(class "Default")
 			(node
@@ -27166,7 +28157,7 @@
 			)
 		)
 		(net
-			(code "90")
+			(code "93")
 			(name "Net-(U302-V+)")
 			(class "Default")
 			(node
@@ -27187,7 +28178,7 @@
 			)
 		)
 		(net
-			(code "91")
+			(code "94")
 			(name "Net-(U302-V-)")
 			(class "Default")
 			(node
@@ -27208,7 +28199,7 @@
 			)
 		)
 		(net
-			(code "92")
+			(code "95")
 			(name "Net-(U303--)")
 			(class "Default")
 			(node
@@ -27229,7 +28220,7 @@
 			)
 		)
 		(net
-			(code "93")
+			(code "96")
 			(name "Net-(U303-V+)")
 			(class "Default")
 			(node
@@ -27250,7 +28241,7 @@
 			)
 		)
 		(net
-			(code "94")
+			(code "97")
 			(name "Net-(U303-V-)")
 			(class "Default")
 			(node
@@ -27271,7 +28262,7 @@
 			)
 		)
 		(net
-			(code "95")
+			(code "98")
 			(name "Net-(U304--)")
 			(class "Default")
 			(node
@@ -27292,7 +28283,7 @@
 			)
 		)
 		(net
-			(code "96")
+			(code "99")
 			(name "Net-(U304-V+)")
 			(class "Default")
 			(node
@@ -27313,7 +28304,7 @@
 			)
 		)
 		(net
-			(code "97")
+			(code "100")
 			(name "Net-(U304-V-)")
 			(class "Default")
 			(node
@@ -27334,7 +28325,7 @@
 			)
 		)
 		(net
-			(code "98")
+			(code "101")
 			(name "Net-(U305--)")
 			(class "Default")
 			(node
@@ -27355,7 +28346,7 @@
 			)
 		)
 		(net
-			(code "99")
+			(code "102")
 			(name "Net-(U305-V+)")
 			(class "Default")
 			(node
@@ -27376,7 +28367,7 @@
 			)
 		)
 		(net
-			(code "100")
+			(code "103")
 			(name "Net-(U305-V-)")
 			(class "Default")
 			(node
@@ -27397,7 +28388,7 @@
 			)
 		)
 		(net
-			(code "101")
+			(code "104")
 			(name "Net-(U306--)")
 			(class "Default")
 			(node
@@ -27418,7 +28409,7 @@
 			)
 		)
 		(net
-			(code "102")
+			(code "105")
 			(name "Net-(U306-V+)")
 			(class "Default")
 			(node
@@ -27439,7 +28430,7 @@
 			)
 		)
 		(net
-			(code "103")
+			(code "106")
 			(name "Net-(U306-V-)")
 			(class "Default")
 			(node
@@ -27460,7 +28451,7 @@
 			)
 		)
 		(net
-			(code "104")
+			(code "107")
 			(name "unconnected-(U101-Pad8)")
 			(class "Default")
 			(node
@@ -27470,7 +28461,7 @@
 			)
 		)
 		(net
-			(code "105")
+			(code "108")
 			(name "unconnected-(U102-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27481,7 +28472,7 @@
 			)
 		)
 		(net
-			(code "106")
+			(code "109")
 			(name "unconnected-(U102-NULL-Pad1)")
 			(class "Default")
 			(node
@@ -27492,7 +28483,7 @@
 			)
 		)
 		(net
-			(code "107")
+			(code "110")
 			(name "unconnected-(U102-NULL-Pad5)")
 			(class "Default")
 			(node
@@ -27503,7 +28494,7 @@
 			)
 		)
 		(net
-			(code "108")
+			(code "111")
 			(name "unconnected-(U103-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27514,7 +28505,7 @@
 			)
 		)
 		(net
-			(code "109")
+			(code "112")
 			(name "unconnected-(U103-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27525,7 +28516,7 @@
 			)
 		)
 		(net
-			(code "110")
+			(code "113")
 			(name "unconnected-(U103-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27536,7 +28527,17 @@
 			)
 		)
 		(net
-			(code "111")
+			(code "114")
+			(name "unconnected-(U108-Pad8)")
+			(class "Default")
+			(node
+				(ref "U108")
+				(pin "8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "115")
 			(name "unconnected-(U201-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27547,7 +28548,7 @@
 			)
 		)
 		(net
-			(code "112")
+			(code "116")
 			(name "unconnected-(U201-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27558,7 +28559,7 @@
 			)
 		)
 		(net
-			(code "113")
+			(code "117")
 			(name "unconnected-(U201-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27569,7 +28570,7 @@
 			)
 		)
 		(net
-			(code "114")
+			(code "118")
 			(name "unconnected-(U204-DC-Pad8)")
 			(class "Default")
 			(node
@@ -27580,7 +28581,7 @@
 			)
 		)
 		(net
-			(code "115")
+			(code "119")
 			(name "unconnected-(U204-NULL-Pad1)")
 			(class "Default")
 			(node
@@ -27591,7 +28592,7 @@
 			)
 		)
 		(net
-			(code "116")
+			(code "120")
 			(name "unconnected-(U204-NULL-Pad5)")
 			(class "Default")
 			(node
@@ -27602,7 +28603,7 @@
 			)
 		)
 		(net
-			(code "117")
+			(code "121")
 			(name "unconnected-(U206-Pad1)")
 			(class "Default")
 			(node
@@ -27612,7 +28613,7 @@
 			)
 		)
 		(net
-			(code "118")
+			(code "122")
 			(name "unconnected-(U206-Pad5)")
 			(class "Default")
 			(node
@@ -27622,7 +28623,7 @@
 			)
 		)
 		(net
-			(code "119")
+			(code "123")
 			(name "unconnected-(U206-Pad8)")
 			(class "Default")
 			(node
@@ -27632,7 +28633,17 @@
 			)
 		)
 		(net
-			(code "120")
+			(code "124")
+			(name "unconnected-(U207-Pad2)")
+			(class "Default")
+			(node
+				(ref "U207")
+				(pin "2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "125")
 			(name "unconnected-(U301-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27643,7 +28654,7 @@
 			)
 		)
 		(net
-			(code "121")
+			(code "126")
 			(name "unconnected-(U301-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27654,7 +28665,7 @@
 			)
 		)
 		(net
-			(code "122")
+			(code "127")
 			(name "unconnected-(U301-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27665,7 +28676,7 @@
 			)
 		)
 		(net
-			(code "123")
+			(code "128")
 			(name "unconnected-(U302-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27676,7 +28687,7 @@
 			)
 		)
 		(net
-			(code "124")
+			(code "129")
 			(name "unconnected-(U302-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27687,7 +28698,7 @@
 			)
 		)
 		(net
-			(code "125")
+			(code "130")
 			(name "unconnected-(U302-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27698,7 +28709,7 @@
 			)
 		)
 		(net
-			(code "126")
+			(code "131")
 			(name "unconnected-(U303-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27709,7 +28720,7 @@
 			)
 		)
 		(net
-			(code "127")
+			(code "132")
 			(name "unconnected-(U303-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27720,7 +28731,7 @@
 			)
 		)
 		(net
-			(code "128")
+			(code "133")
 			(name "unconnected-(U303-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27731,7 +28742,7 @@
 			)
 		)
 		(net
-			(code "129")
+			(code "134")
 			(name "unconnected-(U304-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27742,7 +28753,7 @@
 			)
 		)
 		(net
-			(code "130")
+			(code "135")
 			(name "unconnected-(U304-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27753,7 +28764,7 @@
 			)
 		)
 		(net
-			(code "131")
+			(code "136")
 			(name "unconnected-(U304-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27764,7 +28775,7 @@
 			)
 		)
 		(net
-			(code "132")
+			(code "137")
 			(name "unconnected-(U305-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27775,7 +28786,7 @@
 			)
 		)
 		(net
-			(code "133")
+			(code "138")
 			(name "unconnected-(U305-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27786,7 +28797,7 @@
 			)
 		)
 		(net
-			(code "134")
+			(code "139")
 			(name "unconnected-(U305-NC-Pad8)")
 			(class "Default")
 			(node
@@ -27797,7 +28808,7 @@
 			)
 		)
 		(net
-			(code "135")
+			(code "140")
 			(name "unconnected-(U306-NC-Pad1)")
 			(class "Default")
 			(node
@@ -27808,7 +28819,7 @@
 			)
 		)
 		(net
-			(code "136")
+			(code "141")
 			(name "unconnected-(U306-NC-Pad5)")
 			(class "Default")
 			(node
@@ -27819,7 +28830,7 @@
 			)
 		)
 		(net
-			(code "137")
+			(code "142")
 			(name "unconnected-(U306-NC-Pad8)")
 			(class "Default")
 			(node
