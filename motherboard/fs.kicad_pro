@@ -126,9 +126,9 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -649,6 +649,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manf P/N",
+          "name": "Manf P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manf",
+          "name": "Manf",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -699,7 +723,7 @@
         "uuid": "8ffb403b-c4c8-4a5b-a7cd-53604dae5dc0"
       }
     ],
-    "used_designators": "J103,J307,R116-121,R201,R209-211,R223,R231,R307-309,R316-326,L307,D102,D204,D307,#PWR140-147,#PWR203-204,#PWR211,#PWR237,#PWR343-349,C116-120,C203,C225,C325-328,FB313-314,U108-109,U207,U307,Q103,Q202",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -714,6 +738,10 @@
     [
       "102d6140-03bf-48a8-8df7-d442b6077f5f",
       "Outputs"
+    ],
+    [
+      "431f87a6-8747-4422-a795-a3c9aadb3340",
+      "Front Panel"
     ]
   ],
   "text_variables": {
