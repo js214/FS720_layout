@@ -18244,7 +18244,7 @@
 		(uuid "362bb76d-b627-4074-8e79-e97ba70f42d0")
 	)
 	(hierarchical_label "~{SIG_PRESENT}"
-		(shape input)
+		(shape output)
 		(at 132.08 180.34 0)
 		(effects
 			(font
@@ -18255,7 +18255,7 @@
 		(uuid "ce7bb032-ad87-40a7-aedd-786132608b54")
 	)
 	(hierarchical_label "~{LOCKED}"
-		(shape input)
+		(shape output)
 		(at 394.97 168.91 0)
 		(effects
 			(font
@@ -18266,7 +18266,7 @@
 		(uuid "dcab501b-44f0-4565-a043-b8ea21ab7aed")
 	)
 	(hierarchical_label "~{FAULT}"
-		(shape input)
+		(shape output)
 		(at 204.47 191.77 0)
 		(effects
 			(font
@@ -18277,7 +18277,7 @@
 		(uuid "e593faf8-dd96-4dc6-9fed-c305a78e397d")
 	)
 	(hierarchical_label "~{SIG_PRESENT}"
-		(shape input)
+		(shape output)
 		(at 393.7 179.07 0)
 		(effects
 			(font
@@ -18288,7 +18288,7 @@
 		(uuid "ec28edab-1864-4d6a-9cc0-5f0c5c59d352")
 	)
 	(hierarchical_label "FREQ_CTL"
-		(shape input)
+		(shape output)
 		(at 402.59 93.98 0)
 		(effects
 			(font
@@ -18399,6 +18399,50 @@
 			)
 		)
 		(property "JLCPCB" "C541494"
+			(at 109.22 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 109.22 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 109.22 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 109.22 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 109.22 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -18613,6 +18657,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 80.01 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e0ceadf-8f32-4f82-99cb-a5372868fae1")
 		)
@@ -18684,7 +18772,7 @@
 				)
 			)
 		)
-		(property "Description" "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R"
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip, 1.00K"
 			(at 327.66 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -18730,6 +18818,50 @@
 		)
 		(property "MPN" "RR0816P-102-D"
 			(at 327.66 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 327.66 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 327.66 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 327.66 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 327.66 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18941,6 +19073,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4b05cf45-271c-4b3c-b48b-16dde04f45a4")
 		)
@@ -19085,6 +19261,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c810886-26dd-4bfb-b2c5-9b0bbf3363b8")
 		)
@@ -19201,6 +19421,50 @@
 			)
 		)
 		(property "JLCPCB" "C2930073"
+			(at 92.71 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 92.71 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 92.71 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 92.71 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 92.71 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19416,6 +19680,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 132.08 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 132.08 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 132.08 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 132.08 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7f14860-635d-48c4-85fb-595704ae3ee1")
 		)
@@ -19530,6 +19838,50 @@
 			)
 		)
 		(property "JLCPCB" "C383402"
+			(at 154.94 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 154.94 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 154.94 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 154.94 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 154.94 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -19814,6 +20166,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 375.92 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 375.92 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 375.92 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 375.92 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2b81e4a-2645-4d06-a4d3-86aa4fb30ecc")
 		)
@@ -19958,6 +20354,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 327.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 327.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 327.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 327.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbd22fa9-e7dd-4674-9c53-d2888856e996")
 		)
@@ -20061,6 +20501,50 @@
 			)
 		)
 		(property "JLCPCB" "C6581"
+			(at 375.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 375.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 375.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 375.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 375.92 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -20215,6 +20699,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7dbcffbc-84f2-427d-8ac5-8a0f91eaa263")
 		)
@@ -20286,7 +20814,7 @@
 				)
 			)
 		)
-		(property "Description" "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R"
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip, 1.00K"
 			(at 340.36 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20331,6 +20859,50 @@
 			)
 		)
 		(property "MPN" "RR0816P-102-D"
+			(at 340.36 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 340.36 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 340.36 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 340.36 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 340.36 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -20615,6 +21187,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 130.81 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 130.81 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 130.81 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 130.81 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c673971b-b661-4ac1-afae-e16d397c1711")
 		)
@@ -20728,6 +21344,50 @@
 			)
 		)
 		(property "JLCPCB" "C25811"
+			(at 355.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 355.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 355.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 355.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 355.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20853,6 +21513,50 @@
 			)
 		)
 		(property "JLCPCB" "C22916"
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 237.49 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -21056,6 +21760,50 @@
 			)
 		)
 		(property "JLCPCB" "C7473167"
+			(at 261.62 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 261.62 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 261.62 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 261.62 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 261.62 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -21271,6 +22019,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e541adc8-ee3d-494f-af53-8fec313ed08a")
 		)
@@ -21377,6 +22169,50 @@
 		)
 		(property "MPN" "TFCR0603-16W-E-1003FT"
 			(at 367.03 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 367.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 367.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 367.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 367.03 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21502,6 +22338,50 @@
 			)
 		)
 		(property "JLCPCB" "C98220"
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 156.21 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -21708,6 +22588,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 201.93 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 201.93 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 201.93 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 201.93 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7259936b-5485-4adc-9880-f084564d97e9")
 		)
@@ -21818,6 +22742,50 @@
 			)
 		)
 		(property "JLCPCB" "C22775"
+			(at 92.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 92.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 92.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 92.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 92.71 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -22112,6 +23080,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 113.03 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 113.03 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 113.03 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 113.03 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f8c76f2-9b5b-4a28-8e8c-7bbf6278f7ce")
 		)
@@ -22226,6 +23238,50 @@
 			)
 		)
 		(property "JLCPCB" "C22935"
+			(at 276.86 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 276.86 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 276.86 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 276.86 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 276.86 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -22352,6 +23408,50 @@
 			)
 		)
 		(property "MPN" "742863160"
+			(at 300.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 300.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 300.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 300.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 300.99 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -22544,6 +23644,50 @@
 			)
 		)
 		(property "JLCPCB" "C2441432"
+			(at 250.19 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 250.19 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 250.19 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 250.19 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 250.19 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -22759,6 +23903,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 276.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 276.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 276.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 276.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b7e4a32-8863-47c5-9fd0-c6a1e7c0a2c4")
 		)
@@ -22873,6 +24061,50 @@
 			)
 		)
 		(property "JLCPCB" "C2181873"
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 166.37 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -23089,6 +24321,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 201.93 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 201.93 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 201.93 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 201.93 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47b8f394-034a-42a6-8faf-5e5fb60ba4fd")
 		)
@@ -23159,7 +24435,7 @@
 				)
 			)
 		)
-		(property "Description" "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R"
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip, 1.00K"
 			(at 64.77 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -23205,6 +24481,50 @@
 		)
 		(property "MPN" "RR0816P-102-D"
 			(at 64.77 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 64.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 64.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 64.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 64.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23341,6 +24661,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 266.7 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 266.7 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 266.7 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 266.7 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3dd30d5-5c28-49af-89dd-d75ecd437ee1")
 		)
@@ -23447,6 +24811,50 @@
 		)
 		(property "JLCPCB" "C23000"
 			(at 156.21 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 156.21 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 156.21 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 156.21 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23571,6 +24979,50 @@
 			)
 		)
 		(property "MPN" "C0603C271J5GACTU"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 147.32 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -23707,6 +25159,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 43.18 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 43.18 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 43.18 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 43.18 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "834fea85-3764-4302-86ba-f27e2f76a570")
 		)
@@ -23821,6 +25317,50 @@
 			)
 		)
 		(property "JLCPCB" "C578574"
+			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 214.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -23962,6 +25502,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 128.27 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 128.27 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 128.27 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 128.27 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47a50242-59f8-4bcf-a9b0-41ec8e12329e")
 		)
@@ -24078,6 +25662,50 @@
 			)
 		)
 		(property "JLCPCB" "C67470"
+			(at 271.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 271.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 271.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 271.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 271.78 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -24223,6 +25851,50 @@
 		)
 		(property "JLCPCB" "C14663"
 			(at 82.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 82.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 82.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 82.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24437,6 +26109,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 355.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 355.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 355.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 355.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5df3b132-9a5b-417a-800a-38ece553b361")
 		)
@@ -24553,6 +26269,50 @@
 		)
 		(property "JLCPCB" "C14663"
 			(at 194.31 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 194.31 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 194.31 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 194.31 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 194.31 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24688,6 +26448,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 290.83 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 290.83 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 290.83 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 290.83 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9a6d3c4-302c-4821-aceb-05fe95cef9da")
 		)
@@ -24802,6 +26606,50 @@
 			)
 		)
 		(property "JLCPCB" "C67470"
+			(at 177.8 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 177.8 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 177.8 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 177.8 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 177.8 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -25035,6 +26883,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 194.31 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 194.31 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 194.31 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 194.31 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83abe970-c6ad-44f9-afed-3495ebd7cb09")
 		)
@@ -25186,7 +27078,7 @@
 				)
 			)
 		)
-		(property "Description" "Res Thick Film 0402 1K Ohm 1% 0.063W(1/16W) ±100ppm/°C Pad SMD T/R"
+		(property "Description" "Resistor, Thin Film, 1%, 50 ppm, 1/16W 0603 Chip, 1.00K"
 			(at 327.66 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -25232,6 +27124,50 @@
 		)
 		(property "MPN" "RR0816P-102-D"
 			(at 327.66 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 327.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 327.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 327.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 327.66 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25355,6 +27291,50 @@
 			)
 		)
 		(property "JLCPCB" "C67470"
+			(at 354.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 354.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 354.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 354.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 354.33 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25585,6 +27565,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 95.25 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 95.25 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 95.25 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 95.25 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9688144a-8cfe-44fb-ba5b-06eec1a939ff")
 		)
@@ -25712,6 +27736,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a9cff09-3e5e-4dd1-b35d-3dfa5a1fb584")
 		)
@@ -25828,6 +27896,50 @@
 			)
 		)
 		(property "JLCPCB" "C3839854"
+			(at 262.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 262.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 262.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 262.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 262.89 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -26041,6 +28153,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 34.29 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 34.29 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 34.29 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 34.29 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c56a5ce-7005-44d0-91f3-c24541264ab9")
 		)
@@ -26157,6 +28313,50 @@
 		)
 		(property "JLCPCB" "C14663"
 			(at 325.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 325.12 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 325.12 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 325.12 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 325.12 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26360,6 +28560,50 @@
 			)
 		)
 		(property "JLCPCB" "C98220"
+			(at 394.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 394.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 394.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 394.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 394.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -26577,6 +28821,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b68187e4-b5c8-4382-a767-fe4089d5debb")
 		)
@@ -26681,6 +28969,50 @@
 			)
 		)
 		(property "JLCPCB" "C2861286"
+			(at 318.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 318.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 318.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 318.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 318.77 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26913,6 +29245,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e139efae-ee8a-4333-8055-3d1618647366")
 		)
@@ -27039,6 +29415,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 82.55 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 82.55 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 82.55 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97f416d8-f554-4db2-94b0-539b3e0369bb")
 		)
@@ -27153,6 +29573,50 @@
 			)
 		)
 		(property "JLCPCB" "C67470"
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 114.3 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -27386,6 +29850,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 173.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 173.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 173.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 173.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0ed7e10-a46d-402b-85cd-fd7e3930f762")
 		)
@@ -27510,6 +30018,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c9de075-d3f8-4073-938a-8d44246711f7")
 		)
@@ -27624,6 +30176,50 @@
 			)
 		)
 		(property "JLCPCB" "--"
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 31.75 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -27837,6 +30433,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 63.5 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 63.5 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 63.5 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8020d642-7e8c-481e-9d40-6aee386ea145")
 		)
@@ -27940,6 +30580,50 @@
 			)
 		)
 		(property "JLCPCB" "C2441432"
+			(at 250.19 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 250.19 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 250.19 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 250.19 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 250.19 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -28058,6 +30742,50 @@
 			)
 		)
 		(property "SRS PN" "3-02247"
+			(at 382.27 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 382.27 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 382.27 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 382.27 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 382.27 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -28194,6 +30922,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 104.14 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 104.14 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 104.14 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b93e3d60-c343-4bf0-98bb-8055240f0264")
 		)
@@ -28311,6 +31083,50 @@
 		)
 		(property "JLCPCB" "C14663"
 			(at 353.06 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 353.06 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 353.06 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 353.06 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 353.06 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28445,6 +31261,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 220.98 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 220.98 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 220.98 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 220.98 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62dda743-1c10-45ae-b6ae-0096840f4191")
 		)
@@ -28561,6 +31421,50 @@
 			)
 		)
 		(property "JLCPCB" "C2168575"
+			(at 128.27 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 128.27 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 128.27 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 128.27 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 128.27 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -28698,6 +31602,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 300.99 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 300.99 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 300.99 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 300.99 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "86a1fa9e-16f8-4493-844e-c247579dc7ea")
 		)
@@ -28812,6 +31760,50 @@
 			)
 		)
 		(property "JLCPCB" "C318049"
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 55.88 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -28947,6 +31939,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 43.18 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 43.18 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 43.18 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 43.18 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "844e17e7-d632-4dc2-8200-dcd5d6e32801")
 		)
@@ -29073,6 +32109,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 220.98 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 220.98 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 220.98 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 220.98 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e483cbc3-3bfd-4a20-a4d3-46bb883f6a0f")
 		)
@@ -29187,6 +32267,50 @@
 			)
 		)
 		(property "JLCPCB" "C2181873"
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -29557,6 +32681,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 54.61 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 54.61 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 54.61 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 54.61 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1226875a-1dbc-4476-9cce-7a3cbe98077a")
 		)
@@ -29681,6 +32849,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 273.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 273.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 273.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 273.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4096a54d-61a1-442c-b3c2-918593b343fa")
 		)
@@ -29795,6 +33007,50 @@
 		)
 		(property "JLCPCB" "C23065"
 			(at 91.44 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 91.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 91.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 91.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 91.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29997,6 +33253,50 @@
 			)
 		)
 		(property "JLCPCB" "C67470"
+			(at 354.33 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 354.33 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 354.33 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 354.33 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 354.33 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -30228,6 +33528,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 340.36 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 340.36 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 340.36 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 340.36 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa596614-f57f-4647-80a7-021964bfa2ee")
 		)
@@ -30342,6 +33686,50 @@
 			)
 		)
 		(property "JLCPCB" "C2181873"
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 64.77 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -30715,6 +34103,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 325.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 325.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 325.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 325.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9134ec62-77c2-4e9d-af93-07916aa2b3c4")
 		)
@@ -31000,6 +34432,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c976de7-fe13-4df7-8111-037351458a17")
 		)
@@ -31205,6 +34681,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 190.5 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 190.5 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 190.5 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 190.5 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3e1be27-27e8-4b9e-bbfb-87f10b67b834")
 		)
@@ -31315,6 +34835,50 @@
 			)
 		)
 		(property "MPN" "SYPD-1+"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 80.01 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -31452,6 +35016,50 @@
 				)
 			)
 		)
+		(property "Manf" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7890d18-eb53-435b-bd52-b593a9bba30d")
 		)
@@ -31569,6 +35177,50 @@
 		)
 		(property "JLCPCB" "C23065"
 			(at 187.96 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" ""
+			(at 187.96 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf P/N" ""
+			(at 187.96 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 187.96 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
