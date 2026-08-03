@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","JLCPCB","SRS PN"
+"J1","1","12POS 2.54mm","","","","CONNECTOR_SRS:HDR1X12","","","1-01541"
+"J2","1","Conn_01x12","","","","CONNECTOR_SRS:HDR1X12","","","1-01602"
+"PCB101","1","PCB","","","Excluded from board","","","--",""
+"SC1,SC2,SC3,SC4,SC5,SC6,SC7,SC8","8","4-40X1/4PP","","","Excluded from board","","","","0-00187"
+"ST1,ST2,ST3,ST4","4","4-40X5/8 HX F/F","","","Excluded from board","","","","0-00992"

@@ -538,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -641,6 +641,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],

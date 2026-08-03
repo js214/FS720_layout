@@ -83139,64 +83139,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" "EEU-FC1V331"
+		(property "JLCPCB" "C14745"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fe18441-727a-4188-9efb-b4610098918c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manf" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2dd3922-0661-43f7-88b8-e8c39548a55e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manf P/N" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3b9e32d-82a5-4cc2-b22f-151b903d3180")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a86de0a2-e847-4b07-a9ff-aec516caaa97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a423ee0-645a-4361-b1a7-230836f625bf")
 			(effects
 				(font
 					(size 1 1)
@@ -85328,58 +85276,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6b313b6-0d90-4d84-9433-0fc24832f984")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manf" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5075f41-b937-4a0f-b5cd-1055e6e2af97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manf P/N" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "067837a7-f261-44a3-8406-7d8b2554c014")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9802b65-bd3d-4ef9-b944-9ab34e8facde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54a119f8-d651-4c65-b1f9-cb646b6747b7")
 			(effects
 				(font
 					(size 1 1)

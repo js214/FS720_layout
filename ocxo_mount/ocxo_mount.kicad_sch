@@ -3523,8 +3523,7 @@
 			)
 		)
 		(property "SRS PN" "1-01602"
-			(at 213.36 90.17 0)
-			(hide yes)
+			(at 220.726 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
